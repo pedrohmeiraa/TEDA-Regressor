@@ -1,0 +1,1 @@
+{"mse_TEDA": 1.2034514673626365e-07, "_timestamp": 1678943960.3450687, "_runtime": 24.931781768798828, "_step": 0, "Energy_Consumed": 3.269138049968963e-07, "Energy_RAM": 3.0881773619739764e-08, "Energy_GPU": 0, "Energy_CPU": 2.9603203137715655e-07, "CO2_Emissions": 4.0232621344071303e-08, "_wandb": {"runtime": 24}}

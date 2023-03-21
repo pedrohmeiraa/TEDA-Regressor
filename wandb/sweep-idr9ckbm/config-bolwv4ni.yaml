@@ -1,0 +1,10 @@
+wandb_version: 1
+
+Factor:
+  value: 1.0e-06
+Init:
+  value: tanh2
+Threshold:
+  value: 1.75
+Window:
+  value: 3

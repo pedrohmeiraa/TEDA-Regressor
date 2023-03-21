@@ -1,0 +1,41 @@
+2023-03-15 21:35:08,845 INFO    StreamThr :12636 [internal.py:wandb_internal():87] W&B internal server running at pid: 12636, started at: 2023-03-15 21:35:08.845178
+2023-03-15 21:35:08,850 DEBUG   HandlerThread:12636 [handler.py:handle_request():144] handle_request: status
+2023-03-15 21:35:08,877 INFO    WriterThread:12636 [datastore.py:open_for_write():85] open: c:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230315_213508-yw8dcira\run-yw8dcira.wandb
+2023-03-15 21:35:08,877 DEBUG   SenderThread:12636 [sender.py:send():336] send: header
+2023-03-15 21:35:08,883 DEBUG   SenderThread:12636 [sender.py:send():336] send: run
+2023-03-15 21:35:09,587 DEBUG   HandlerThread:12636 [handler.py:handle_request():144] handle_request: check_version
+2023-03-15 21:35:09,623 INFO    SenderThread:12636 [dir_watcher.py:__init__():219] watching files in: c:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230315_213508-yw8dcira\files
+2023-03-15 21:35:09,624 INFO    SenderThread:12636 [sender.py:_start_run_threads():1078] run started: yw8dcira with start time 1678926908.852721
+2023-03-15 21:35:09,624 DEBUG   SenderThread:12636 [sender.py:send_request():363] send_request: summary_record
+2023-03-15 21:35:09,665 INFO    SenderThread:12636 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-15 21:35:09,667 DEBUG   SenderThread:12636 [sender.py:send_request():363] send_request: check_version
+2023-03-15 21:35:09,852 DEBUG   HandlerThread:12636 [handler.py:handle_request():144] handle_request: run_start
+2023-03-15 21:35:09,871 DEBUG   HandlerThread:12636 [system_info.py:__init__():31] System info init
+2023-03-15 21:35:09,871 DEBUG   HandlerThread:12636 [system_info.py:__init__():46] System info init done
+2023-03-15 21:35:09,871 INFO    HandlerThread:12636 [system_monitor.py:start():183] Starting system monitor
+2023-03-15 21:35:09,872 INFO    SystemMonitor:12636 [system_monitor.py:_start():147] Starting system asset monitoring threads
+2023-03-15 21:35:09,872 INFO    HandlerThread:12636 [system_monitor.py:probe():204] Collecting system info
+2023-03-15 21:35:09,875 INFO    SystemMonitor:12636 [interfaces.py:start():187] Started cpu monitoring
+2023-03-15 21:35:09,876 DEBUG   HandlerThread:12636 [system_info.py:probe():195] Probing system
+2023-03-15 21:35:09,876 INFO    SystemMonitor:12636 [interfaces.py:start():187] Started disk monitoring
+2023-03-15 21:35:09,878 INFO    SystemMonitor:12636 [interfaces.py:start():187] Started memory monitoring
+2023-03-15 21:35:09,878 INFO    SystemMonitor:12636 [interfaces.py:start():187] Started network monitoring
+2023-03-15 21:35:09,902 DEBUG   HandlerThread:12636 [git.py:repo():40] git repository is invalid
+2023-03-15 21:35:09,903 DEBUG   HandlerThread:12636 [system_info.py:probe():240] Probing system done
+2023-03-15 21:35:09,903 DEBUG   HandlerThread:12636 [system_monitor.py:probe():213] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.8.5', 'heartbeatAt': '2023-03-16T00:35:09.876913', 'startedAt': '2023-03-16T00:35:08.824407', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'host': 'DESKTOP-5NQASSV', 'username': 'Samsung', 'executable': 'c:\\Users\\Samsung\\anaconda3\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 1600.0, 'min': 0.0, 'max': 1800.0}, 'cpu_freq_per_core': [{'current': 1600.0, 'min': 0.0, 'max': 1800.0}], 'disk': {'total': 222.70860290527344, 'used': 166.5332145690918}, 'memory': {'total': 3.8945770263671875}}
+2023-03-15 21:35:09,903 INFO    HandlerThread:12636 [system_monitor.py:probe():214] Finished collecting system info
+2023-03-15 21:35:09,903 INFO    HandlerThread:12636 [system_monitor.py:probe():217] Publishing system info
+2023-03-15 21:35:09,903 DEBUG   HandlerThread:12636 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-03-15 21:35:09,904 DEBUG   HandlerThread:12636 [system_info.py:_save_pip():67] Saving pip packages done
+2023-03-15 21:35:09,904 DEBUG   HandlerThread:12636 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-03-15 21:35:10,635 INFO    Thread-17 :12636 [dir_watcher.py:_on_file_created():278] file/dir created: c:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230315_213508-yw8dcira\files\requirements.txt
+2023-03-15 21:35:10,635 INFO    Thread-17 :12636 [dir_watcher.py:_on_file_created():278] file/dir created: c:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230315_213508-yw8dcira\files\conda-environment.yaml
+2023-03-15 21:35:10,636 INFO    Thread-17 :12636 [dir_watcher.py:_on_file_created():278] file/dir created: c:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230315_213508-yw8dcira\files\wandb-summary.json
+2023-03-15 21:35:50,437 ERROR   cpu       :12636 [interfaces.py:monitor():141] Failed to sample metric: psutil.NoSuchProcess process no longer exists (pid=5448)
+2023-03-15 21:35:50,443 ERROR   cpu       :12636 [interfaces.py:monitor():141] Failed to sample metric: psutil.NoSuchProcess process no longer exists (pid=5448)
+2023-03-15 21:35:50,443 WARNING StreamThr :12636 [internal.py:is_dead():415] Internal process exiting, parent pid 5448 disappeared
+2023-03-15 21:35:50,443 ERROR   StreamThr :12636 [internal.py:wandb_internal():153] Internal process shutdown.
+2023-03-15 21:35:50,873 INFO    WriterThread:12636 [datastore.py:close():298] close: c:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230315_213508-yw8dcira\run-yw8dcira.wandb
+2023-03-15 21:35:51,173 INFO    SenderThread:12636 [sender.py:finish():1504] shutting down sender
+2023-03-15 21:35:51,173 INFO    SenderThread:12636 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-03-15 21:35:51,438 INFO    MainThread:12636 [internal.py:handle_exit():77] Internal process exited

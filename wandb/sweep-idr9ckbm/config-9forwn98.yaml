@@ -1,0 +1,10 @@
+wandb_version: 1
+
+Factor:
+  value: 0.9
+Init:
+  value: zero
+Threshold:
+  value: 3
+Window:
+  value: 2
