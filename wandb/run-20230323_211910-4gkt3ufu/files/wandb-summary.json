@@ -1,0 +1,1 @@
+{"mse_RLS": 3.5620787172430803e-07, "_timestamp": 1679617195.871131, "_runtime": 45.13160705566406, "_step": 0, "Energy_Consumed": 8.455644571923434e-07, "Energy_RAM": 7.944767913651656e-08, "Energy_GPU": 0, "Energy_CPU": 7.661167780558268e-07, "CO2_Emissions": 1.0406190900548762e-07, "_wandb": {"runtime": 57}}

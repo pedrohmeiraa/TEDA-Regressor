@@ -22,14 +22,26 @@ First, start by cloning the repository:
 ```bash
 git clone https://github.com/pedrohmeiraa/TEDA-Regressor
 ```
--   Start by installing  `WandB`  if you don't have it: 💻
+
+We also have cloned the `Padasip` repository:
+```bash
+git clone https://github.com/matousc89/padasip
+```
+It is possible to install using `pip`:
+```bash
+!pip3 install padasip
+```
+- The **Padasip** (*Python Adaptive Signal Processing*) is a library designed to simplify adaptive signal processing tasks within Python (filtering, prediction, reconstruction, classification). More information [here](https://matousc89.github.io/padasip/).  :twisted_rightwards_arrows:
+
+
+Now, we are going to install the  `WandB`: 💻
 
 ```bash
 !pip3 install wandb -qU
 ```
  - If you want to know more about software package **WandB**, click [here](https://wandb.ai/site).  :bar_chart:
  
-You also have to install the CodeCarbon, running the following command:
+You also have to install the `CodeCarbon`, running the following command:
 
 ```bash
 !pip3 install codecarbon
@@ -42,12 +54,33 @@ You also have to install the CodeCarbon, running the following command:
 
 
 For each of the algorithms, their respective notebook will present the following steps:
-  3.1 ``data acquisition``;
-  3.2 ``sweep variables definition``;
-  3.3 ``WandB sweep``;
-  3.4 ``data analysis``.
+  3.1 `Installing modules`
+  3.2 ``Data Acquisition``;
+  3.2 ``Sweep Variables Definition``;
+  3.3 ``WandB Sweep``;
+  3.4 ``Data Analysis``.
 
-### 3.1) Data Acquisition
+### 3.1) Installing modules
+
+First, he are going to show the main modules and dependencies to work:
+
+```bash
+## Padasip library
+import  padasip  as  pa
+from  padasip.filters.base_filter  import AdaptiveFilter
+
+##WandB
+import  wandb
+
+##CodeCarbon
+from  codecarbon  import  EmissionsTracker
+```
+And:
+```bash
+from  TedaRegressor  import  DataCloud, TEDARegressor
+```
+
+### 3.2) Data Acquisition
 
 The updated raw data could be collected by the Jupyter Notebook or Python Script, that are contained into the folder ``TEDARegressor``.
 
@@ -65,7 +98,7 @@ As the file is in ``.xlsx`` format, data acquisition can be done in a ``DataFram
 df = pd.read_excel("full_data.xlsx")
 ```
 
-### 3.2) Sweep variables definition
+### 3.3) Sweep variables definition
 
 The first thing we need to define is the `method` for choosing new parameter values.
 We provide the following search `methods`:
@@ -151,7 +184,7 @@ sweep_config = {
 sweep_id = wandb.sweep(sweep_config, project="TEDARegressor")
 ```
 
-### 3.3) WandB sweep
+### 3.4) WandB sweep
  
  Now, we have to define our training procedure, before we can actually execute the sweep [[WandB Docs]](https://colab.research.google.com/github/wandb/examples/blob/master/colabs/pytorch/Organizing_Hyperparameter_Sweeps_in_PyTorch_with_W%26B.ipynb#scrollTo=IB1LeARB8Ccv):
 In the functions below, we define the algorithm (TEDA Regressor, RLS or CNN), and add the following `wandb` tools to log model metrics, visualize performance and output and track our experiments 
@@ -162,7 +195,7 @@ In the functions below, we define the algorithm (TEDA Regressor, RLS or CNN), an
 
 * [**`wandb.log()`**](https://docs.wandb.com/library/log) – log model behavior to W&B. Here, we just log the performance; see [this Colab](https://colab.research.google.com/github/wandb/examples/blob/master/colabs/wandb-log/Log_(Almost)_Anything_with_W%26B_Media.ipynb) for all the other rich media that can be logged with `wandb.log`.
  
-#### 3.3.1 Defining our training procedure:
+#### 3.4.1 Defining our training procedure:
 
 **TEDA Regressor**
 ```bash
@@ -305,17 +338,27 @@ To get going on configuration, the `wandb.agent` needs to know:
 wandb.agent(sweep_id, train)
 ```
 
-### 3.4) Data Analysis  
+### 3.5) Data Analysis  
 Here, we can visualize the Sweep Results 👀. We have use the **Parallel Coordinates Plot 🔀** to map hyperparameter values to model metrics.
 We've used to see the combinations of hyperparameters that led to the **best model performance (minor MSE) 📊** and the **CodeCarbon results :leaves:**:
 
+#### 3.5.1 TEDA Regressor sweep:
 
+![TEDA Regressor Sweep.](https://github.com/pedrohmeiraa/TEDA-Regressor/blob/master/Figures/TEDA_sweep.png?raw=true)
 
-#### The sweeps used in the article are public and can be accessed at:
+#### 3.5.2 RLS sweep:
 
-[ 1. TEDA Regressor Sweep]();
-[ 2. RLS Sweep]();
- [3. CNN Sweep]();
+![RLS Sweep.](https://github.com/pedrohmeiraa/TEDA-Regressor/blob/master/Figures/RLS_sweep.png?raw=true)
+
+#### 3.5.3 CNN sweep:
+
+![CNN Sweep.](https://github.com/pedrohmeiraa/TEDA-Regressor/blob/master/Figures/CNN_sweep.png?raw=true)
+
+### The sweeps used in the article are public and can be accessed at:
+
+[1. TEDA Regressor Sweep]();
+[2. RLS Sweep]() and;
+[3. CNN Sweep]();
 
 # 4. Citations
 
@@ -339,3 +382,4 @@ We've used to see the combinations of hyperparameters that led to the **best mod
 [[2]](https://www.mdpi.com/1424-8220/21/12/4153) :books: Signoretti, G. ; Silva, M. ; **Andrade, P.**; Silva, I. ; Sisinni, E. ; Ferrari, P.; *An Evolving TinyML Compression Algorithm for IoT Environments Based on Data Eccentricity*. SENSORS, v. 21, p. 4153, 2021. ![GitHub](https://img.shields.io/badge/DOI-10.3390%2Fs21124153-green)
 
 [[3]](https://dl.acm.org/journal/tecs) :books: **Andrade, P.**; Silva, I.; Silva, M.; Flores, T.; Costa, D.G. Soares, E.; _Online Processing of Vehicular Data on the Edge Through an Unsupervised TinyML Regression Technique_. ACM TECS 2023. ![GitHub](https://img.shields.io/badge/DOI-in%20submission%20process-blue)
+
