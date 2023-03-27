@@ -1,0 +1,35 @@
+2023-03-26 22:05:09,607 INFO    Thread-3764:15200 [wandb_setup.py:_flush():76] Configure stats pid to 15200
+2023-03-26 22:05:09,607 INFO    Thread-3764:15200 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\.config\wandb\settings
+2023-03-26 22:05:09,607 INFO    Thread-3764:15200 [wandb_setup.py:_flush():76] Loading settings from c:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\settings
+2023-03-26 22:05:09,607 INFO    Thread-3764:15200 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'TEDARegressor', 'entity': 'embarca-ai', 'root_dir': 'c:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor', 'run_id': 'kr899417', 'sweep_param_path': 'c:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor\\wandb\\sweep-cxs7pwtg\\config-kr899417.yaml', 'sweep_id': 'cxs7pwtg'}
+2023-03-26 22:05:09,607 INFO    Thread-3764:15200 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-03-26 22:05:09,607 INFO    Thread-3764:15200 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-03-26 22:05:09,607 INFO    Thread-3764:15200 [wandb_init.py:_log_setup():506] Logging user logs to c:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230326_220509-kr899417\logs\debug.log
+2023-03-26 22:05:09,607 INFO    Thread-3764:15200 [wandb_init.py:_log_setup():507] Logging internal logs to c:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230326_220509-kr899417\logs\debug-internal.log
+2023-03-26 22:05:09,607 INFO    Thread-3764:15200 [wandb_init.py:init():546] calling init triggers
+2023-03-26 22:05:09,607 INFO    Thread-3764:15200 [wandb_init.py:init():552] wandb.init called with sweep_config: {'Factor': 1, 'Init': 'relu', 'Threshold': 3, 'Window': 6}
+config: {}
+2023-03-26 22:05:09,607 INFO    Thread-3764:15200 [wandb_init.py:init():602] starting backend
+2023-03-26 22:05:09,607 INFO    Thread-3764:15200 [wandb_init.py:init():606] setting up manager
+2023-03-26 22:05:09,622 INFO    Thread-3764:15200 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-03-26 22:05:09,622 INFO    Thread-3764:15200 [wandb_init.py:init():613] backend started and connected
+2023-03-26 22:05:09,650 INFO    Thread-3764:15200 [wandb_run.py:_config_callback():1251] config_cb None None {'Factor': 1, 'Init': 'relu', 'Threshold': 3, 'Window': 6}
+2023-03-26 22:05:09,650 INFO    Thread-3764:15200 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2023-03-26 22:05:09,650 INFO    Thread-3764:15200 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-03-26 22:05:09,650 INFO    Thread-3764:15200 [wandb_init.py:init():701] updated telemetry
+2023-03-26 22:05:09,696 INFO    Thread-3764:15200 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-03-26 22:05:10,404 INFO    Thread-3764:15200 [wandb_run.py:_on_init():2133] communicating current version
+2023-03-26 22:05:10,643 INFO    Thread-3764:15200 [wandb_run.py:_on_init():2142] got version response 
+2023-03-26 22:05:10,643 INFO    Thread-3764:15200 [wandb_init.py:init():789] starting run threads in backend
+2023-03-26 22:05:31,336 INFO    Thread-3764:15200 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-26 22:05:31,336 INFO    Thread-3764:15200 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-26 22:05:31,337 INFO    Thread-3764:15200 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-26 22:05:31,337 INFO    Thread-3764:15200 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-26 22:05:31,338 INFO    Thread-3764:15200 [wandb_init.py:init():831] run started, returning control to user process
+2023-03-26 22:05:37,623 INFO    Thread-3764:15200 [wandb_run.py:_finish():1854] finishing run embarca-ai/TEDARegressor/kr899417
+2023-03-26 22:05:37,623 INFO    Thread-3764:15200 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-03-26 22:05:37,623 INFO    Thread-3764:15200 [wandb_run.py:_restore():2066] restore
+2023-03-26 22:05:37,623 INFO    Thread-3764:15200 [wandb_run.py:_restore():2072] restore done
+2023-03-26 22:05:41,966 INFO    Thread-3764:15200 [wandb_run.py:_footer_history_summary_info():3422] rendering history
+2023-03-26 22:05:41,966 INFO    Thread-3764:15200 [wandb_run.py:_footer_history_summary_info():3454] rendering summary
+2023-03-26 22:05:41,966 INFO    Thread-3764:15200 [wandb_run.py:_footer_sync_info():3380] logging synced files
