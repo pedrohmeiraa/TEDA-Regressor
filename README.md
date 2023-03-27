@@ -1,7 +1,7 @@
 # TEDA Regressor: *An Online Processing of Vehicular Data on the Edge Through an Unsupervised TinyML Regression Technique*
 
 
-## ✍🏾Authors:  Pedro Andrade, Ivanovitch Silva, Marianne Diniz, Thommas Flores, Daniel G. Costa, and Eduardo Soares.
+### ✍🏾Authors:  Pedro Andrade, [Ivanovitch Silva](https://github.com/ivanovitchm), Marianne Diniz, Thommas Flores, Daniel G. Costa, and Eduardo Soares.
 
 
 # 1. Abstract/Overview
@@ -51,16 +51,19 @@ You also have to install the `CodeCarbon`, running the following command:
 ***
 
 # 3. Steps for Definition of Aforementioned Methodology
-
-
 For each of the algorithms, their respective notebook will present the following steps:
-  3.1 `Installing modules`
+
+  3.1 `Installing modules`;
+  
   3.2 ``Data Acquisition``;
+  
   3.2 ``Sweep Variables Definition``;
-  3.3 ``WandB Sweep``;
+  
+  3.3 ``WandB Sweep`` and;
+  
   3.4 ``Data Analysis``.
 
-### 3.1) Installing modules
+### 3.1) Importing modules
 
 First, he are going to show the main modules and dependencies to work:
 
@@ -356,16 +359,18 @@ We've used to see the combinations of hyperparameters that led to the **best mod
 
 ### The sweeps used in the article are public and can be accessed at:
 
-[1. TEDA Regressor Sweep]();
-[2. RLS Sweep]() and;
-[3. CNN Sweep]();
+1. [TEDA Regressor Sweep](https://wandb.ai/site);
+
+2. [RLS Sweep](https://wandb.ai/site) and;
+
+3. [CNN Sweep](https://wandb.ai/site);
 
 # 4. Citations
 
 
 ### How does it cite?
 
-- **Andrade, P.**; Silva, I.; Silva, M.; Flores, T.; Costa, D.G. Soares, E.; _Online Processing of Vehicular Data on the Edge Through an Unsupervised TinyML Regression Technique_. ACM TECS 2023. ![GitHub](https://img.shields.io/badge/DOI-in%20submission%20process-blue)
+- **Andrade, P.**; Silva, I.; Silva, M.; Flores, T.; Costa, D.G. Soares, E.; _Online Processing of Vehicular Data on the Edge Through an Unsupervised TinyML Regression Technique_. ACM TECS 2023. ![GitHub](https://img.shields.io/badge/DOI-under%20review-blue)
 
 ### How does the article download?
 
@@ -379,7 +384,8 @@ We've used to see the combinations of hyperparameters that led to the **best mod
 
  [[1]](https://www.mdpi.com/1424-8220/22/10/3838) :books: **Andrade, P.**; Silva, I.; Silva, M.; Flores, T.; Cassiano, J.; Costa, D.G. *A TinyML Soft-Sensor Approach for Low-Cost Detection and Monitoring of Vehicular Emissions*. SENSORS 2022, 22, 3838.  ![GitHub](https://img.shields.io/badge/DOI-10.3390%2Fs22103838-green)
 
-[[2]](https://www.mdpi.com/1424-8220/21/12/4153) :books: Signoretti, G. ; Silva, M. ; **Andrade, P.**; Silva, I. ; Sisinni, E. ; Ferrari, P.; *An Evolving TinyML Compression Algorithm for IoT Environments Based on Data Eccentricity*. SENSORS, v. 21, p. 4153, 2021. ![GitHub](https://img.shields.io/badge/DOI-10.3390%2Fs21124153-green)
+[[2]](https://www.mdpi.com/1424-8220/21/12/4153) :books: Signoretti, G. ; Silva, M. ; **Andrade, P.**; Silva, I. ; Sisinni, E. ; Ferrari, P.; *An Evolving TinyML Compression Algorithm for IoT Environments Based on Data Eccentricity*. SENSORS 2021, v. 21, p. 4153. ![GitHub](https://img.shields.io/badge/DOI-10.3390%2Fs21124153-green)
 
-[[3]](https://dl.acm.org/journal/tecs) :books: **Andrade, P.**; Silva, I.; Silva, M.; Flores, T.; Costa, D.G. Soares, E.; _Online Processing of Vehicular Data on the Edge Through an Unsupervised TinyML Regression Technique_. ACM TECS 2023. ![GitHub](https://img.shields.io/badge/DOI-in%20submission%20process-blue)
+[[3]](https://dl.acm.org/journal/tecs) :books: **Andrade, P.**; Silva, I.; Silva, M.; Flores, T.; Costa, D.G. Soares, E.; _Online Processing of Vehicular Data on the Edge Through an Unsupervised TinyML Regression Technique_. ACM TECS 2023. ![GitHub](https://img.shields.io/badge/DOI-under%20review-blue)
+
 
