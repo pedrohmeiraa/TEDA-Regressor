@@ -1,0 +1,8 @@
+wandb_version: 1
+
+ActList:
+  value: relu
+OptList:
+  value: sgd
+Window:
+  value: 6

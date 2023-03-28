@@ -1,0 +1,45 @@
+wandb_version: 1
+
+ActList:
+  desc: null
+  value: linear
+OptList:
+  desc: null
+  value: sgd
+Window:
+  desc: null
+  value: 2
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.14.0
+    framework: xgboost
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    python_version: 3.8.5
+    start_time: 1680036957.606104
+    t:
+      1:
+      - 2
+      - 3
+      - 5
+      - 6
+      - 53
+      - 55
+      2:
+      - 2
+      - 3
+      - 5
+      - 6
+      - 53
+      - 55
+      3:
+      - 2
+      - 23
+      - 37
+      4: 3.8.5
+      5: 0.14.0
+      8:
+      - 1
+      - 3
+      - 5

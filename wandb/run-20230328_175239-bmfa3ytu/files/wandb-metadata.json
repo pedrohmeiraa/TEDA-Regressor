@@ -1,0 +1,41 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.8.5",
+    "heartbeatAt": "2023-03-28T20:52:40.557305",
+    "startedAt": "2023-03-28T20:52:39.682721",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "Desktop/Pedro/UFRN/Portfolio/TEDA Regressor/3. CNN.ipynb",
+    "root": "C:/Users/Samsung/Desktop/Pedro/UFRN/Portfolio/TEDA Regressor",
+    "git": {
+        "remote": "https://github.com/pedrohmeiraa/TEDA-Regressor.git",
+        "commit": "b0dbd159e56fd6e8e09cc4fa5084f18800a2ad77"
+    },
+    "email": "pedro.andrade@cear.ufpb.br",
+    "host": "DESKTOP-5NQASSV",
+    "username": "Samsung",
+    "executable": "C:\\Users\\Samsung\\anaconda3\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1600.0,
+        "min": 0.0,
+        "max": 1800.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1600.0,
+            "min": 0.0,
+            "max": 1800.0
+        }
+    ],
+    "disk": {
+        "total": 222.70860290527344,
+        "used": 168.8343849182129
+    },
+    "memory": {
+        "total": 3.8945770263671875
+    }
+}

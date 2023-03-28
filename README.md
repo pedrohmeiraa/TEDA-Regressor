@@ -359,11 +359,11 @@ We've used to see the combinations of hyperparameters that led to the **best mod
 
 ### The sweeps used in the article are public and can be accessed at:
 
-1. [TEDA Regressor Sweep](https://wandb.ai/site);
+1. [TEDA Regressor Sweep](https://wandb.ai/embarca-ai/TEDA_Regressor/sweeps/8bcdh2pd?workspace=user-pedrohmeira);
 
-2. [RLS Sweep](https://wandb.ai/site) and;
+2. [RLS Sweep](https://wandb.ai/embarca-ai/TEDA_Regressor/sweeps/2wvvmn05?workspace=user-pedrohmeira) and;
 
-3. [CNN Sweep](https://wandb.ai/site);
+3. [CNN Sweep](https://wandb.ai/embarca-ai/TEDA_Regressor/sweeps/mq0bccda?workspace=user-pedrohmeira);
 
 # 4. Citations
 

@@ -1,0 +1,1106 @@
+2023-03-28 17:24:25,024 INFO    MainThread:9900 [wandb_setup.py:_flush():76] Configure stats pid to 9900
+2023-03-28 17:24:25,024 INFO    MainThread:9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\.config\wandb\settings
+2023-03-28 17:24:25,024 INFO    MainThread:9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\settings
+2023-03-28 17:24:25,024 INFO    MainThread:9900 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-03-28 17:24:25,024 INFO    MainThread:9900 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-03-28 17:24:25,024 INFO    MainThread:9900 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-03-28 17:24:25,025 INFO    MainThread:9900 [wandb_init.py:_log_setup():506] Logging user logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_172425-zrdf8zle\logs\debug.log
+2023-03-28 17:24:25,025 INFO    MainThread:9900 [wandb_init.py:_log_setup():507] Logging internal logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_172425-zrdf8zle\logs\debug-internal.log
+2023-03-28 17:24:25,025 INFO    MainThread:9900 [wandb_init.py:_jupyter_setup():452] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000001A341D0E5B0>
+2023-03-28 17:24:25,026 INFO    MainThread:9900 [wandb_init.py:init():546] calling init triggers
+2023-03-28 17:24:25,026 INFO    MainThread:9900 [wandb_init.py:init():552] wandb.init called with sweep_config: {}
+config: {}
+2023-03-28 17:24:25,026 INFO    MainThread:9900 [wandb_init.py:init():602] starting backend
+2023-03-28 17:24:25,026 INFO    MainThread:9900 [wandb_init.py:init():606] setting up manager
+2023-03-28 17:24:25,032 INFO    MainThread:9900 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-03-28 17:24:25,039 INFO    MainThread:9900 [wandb_init.py:init():613] backend started and connected
+2023-03-28 17:24:25,062 INFO    MainThread:9900 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2023-03-28 17:24:25,062 INFO    MainThread:9900 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-03-28 17:24:25,063 INFO    MainThread:9900 [wandb_init.py:init():701] updated telemetry
+2023-03-28 17:24:25,436 INFO    MainThread:9900 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-03-28 17:24:26,124 INFO    MainThread:9900 [wandb_run.py:_on_init():2133] communicating current version
+2023-03-28 17:24:26,233 INFO    MainThread:9900 [wandb_run.py:_on_init():2142] got version response 
+2023-03-28 17:24:26,233 INFO    MainThread:9900 [wandb_init.py:init():789] starting run threads in backend
+2023-03-28 17:24:50,953 INFO    MainThread:9900 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-28 17:24:50,955 INFO    MainThread:9900 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-28 17:24:50,956 INFO    MainThread:9900 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-28 17:24:50,957 INFO    MainThread:9900 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-28 17:24:50,958 INFO    MainThread:9900 [wandb_init.py:init():831] run started, returning control to user process
+2023-03-28 17:24:50,959 INFO    MainThread:9900 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-03-28 17:24:50,960 INFO    MainThread:9900 [wandb_init.py:_pause_backend():417] pausing backend
+2023-03-28 17:24:50,970 INFO    MainThread:9900 [wandb_init.py:_resume_backend():422] resuming backend
+2023-03-28 17:24:51,426 INFO    MainThread:9900 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-03-28 17:24:51,426 INFO    MainThread:9900 [wandb_init.py:_pause_backend():417] pausing backend
+2023-03-28 17:24:51,442 INFO    MainThread:9900 [wandb_init.py:_resume_backend():422] resuming backend
+2023-03-28 17:24:51,442 INFO    MainThread:9900 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-03-28 17:24:51,442 INFO    MainThread:9900 [wandb_init.py:_pause_backend():417] pausing backend
+2023-03-28 17:24:51,460 INFO    MainThread:9900 [wandb_init.py:_resume_backend():422] resuming backend
+2023-03-28 17:24:51,553 INFO    MainThread:9900 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-03-28 17:24:51,553 INFO    MainThread:9900 [wandb_init.py:_pause_backend():417] pausing backend
+2023-03-28 17:24:51,575 INFO    MainThread:9900 [wandb_init.py:_resume_backend():422] resuming backend
+2023-03-28 17:24:51,637 INFO    MainThread:9900 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-03-28 17:24:51,637 INFO    MainThread:9900 [wandb_init.py:_pause_backend():417] pausing backend
+2023-03-28 17:24:51,659 INFO    MainThread:9900 [wandb_init.py:_resume_backend():422] resuming backend
+2023-03-28 17:24:52,315 INFO    MainThread:9900 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-03-28 17:24:52,315 INFO    MainThread:9900 [wandb_init.py:_pause_backend():417] pausing backend
+2023-03-28 17:24:52,330 INFO    MainThread:9900 [wandb_init.py:_resume_backend():422] resuming backend
+2023-03-28 17:24:52,340 INFO    MainThread:9900 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-03-28 17:24:52,340 INFO    MainThread:9900 [wandb_init.py:_pause_backend():417] pausing backend
+2023-03-28 17:24:52,363 INFO    MainThread:9900 [wandb_init.py:_resume_backend():422] resuming backend
+2023-03-28 17:24:52,390 INFO    MainThread:9900 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-03-28 17:24:52,390 INFO    MainThread:9900 [wandb_init.py:_pause_backend():417] pausing backend
+2023-03-28 17:24:52,407 INFO    MainThread:9900 [wandb_init.py:_resume_backend():422] resuming backend
+2023-03-28 17:24:52,468 INFO    MainThread:9900 [pyagent.py:run():314] Starting sweep agent: entity=None, project=None, count=None
+2023-03-28 17:24:58,176 WARNING MsgRouterThr:9900 [router.py:message_loop():77] message_loop has been closed
+2023-03-28 17:25:03,701 INFO    Thread-16 :9900 [wandb_setup.py:_flush():76] Configure stats pid to 9900
+2023-03-28 17:25:03,701 INFO    Thread-16 :9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\.config\wandb\settings
+2023-03-28 17:25:03,701 INFO    Thread-16 :9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\settings
+2023-03-28 17:25:03,701 INFO    Thread-16 :9900 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'TEDA_Regressor', 'entity': 'embarca-ai', 'root_dir': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor', 'sweep_id': 'mq0bccda', 'run_id': '83hl6cl6', 'sweep_param_path': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor\\wandb\\sweep-mq0bccda\\config-83hl6cl6.yaml'}
+2023-03-28 17:25:03,701 INFO    Thread-16 :9900 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-03-28 17:25:03,701 INFO    Thread-16 :9900 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-03-28 17:25:03,701 INFO    Thread-16 :9900 [wandb_init.py:_log_setup():506] Logging user logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_172503-83hl6cl6\logs\debug.log
+2023-03-28 17:25:03,701 INFO    Thread-16 :9900 [wandb_init.py:_log_setup():507] Logging internal logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_172503-83hl6cl6\logs\debug-internal.log
+2023-03-28 17:25:03,701 INFO    Thread-16 :9900 [wandb_init.py:init():546] calling init triggers
+2023-03-28 17:25:03,701 INFO    Thread-16 :9900 [wandb_init.py:init():552] wandb.init called with sweep_config: {'ActList': 'relu', 'OptList': 'adam', 'Window': 2}
+config: {}
+2023-03-28 17:25:03,701 INFO    Thread-16 :9900 [wandb_init.py:init():602] starting backend
+2023-03-28 17:25:03,701 INFO    Thread-16 :9900 [wandb_init.py:init():606] setting up manager
+2023-03-28 17:25:03,701 INFO    Thread-16 :9900 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-03-28 17:25:03,717 INFO    Thread-16 :9900 [wandb_init.py:init():613] backend started and connected
+2023-03-28 17:25:03,748 INFO    Thread-16 :9900 [wandb_run.py:_config_callback():1251] config_cb None None {'ActList': 'relu', 'OptList': 'adam', 'Window': 2}
+2023-03-28 17:25:03,748 INFO    Thread-16 :9900 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2023-03-28 17:25:03,748 INFO    Thread-16 :9900 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-03-28 17:25:03,748 INFO    Thread-16 :9900 [wandb_init.py:init():701] updated telemetry
+2023-03-28 17:25:03,842 INFO    Thread-16 :9900 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-03-28 17:25:04,529 INFO    Thread-16 :9900 [wandb_run.py:_on_init():2133] communicating current version
+2023-03-28 17:25:04,686 INFO    Thread-16 :9900 [wandb_run.py:_on_init():2142] got version response 
+2023-03-28 17:25:04,686 INFO    Thread-16 :9900 [wandb_init.py:init():789] starting run threads in backend
+2023-03-28 17:25:27,009 INFO    Thread-16 :9900 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-28 17:25:27,009 INFO    Thread-16 :9900 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-28 17:25:27,010 INFO    Thread-16 :9900 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-28 17:25:27,010 INFO    Thread-16 :9900 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-28 17:25:27,012 INFO    Thread-16 :9900 [wandb_init.py:init():831] run started, returning control to user process
+2023-03-28 17:26:31,628 INFO    Thread-16 :9900 [wandb_run.py:_finish():1854] finishing run embarca-ai/TEDA_Regressor/83hl6cl6
+2023-03-28 17:26:31,629 INFO    Thread-16 :9900 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-03-28 17:26:31,629 INFO    Thread-16 :9900 [wandb_run.py:_restore():2066] restore
+2023-03-28 17:26:31,630 INFO    Thread-16 :9900 [wandb_run.py:_restore():2072] restore done
+2023-03-28 17:26:39,666 INFO    Thread-16 :9900 [wandb_run.py:_footer_history_summary_info():3422] rendering history
+2023-03-28 17:26:39,666 INFO    Thread-16 :9900 [wandb_run.py:_footer_history_summary_info():3454] rendering summary
+2023-03-28 17:26:39,679 INFO    Thread-16 :9900 [wandb_run.py:_footer_sync_info():3380] logging synced files
+2023-03-28 17:26:45,763 INFO    Thread-25 :9900 [wandb_setup.py:_flush():76] Configure stats pid to 9900
+2023-03-28 17:26:45,763 INFO    Thread-25 :9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\.config\wandb\settings
+2023-03-28 17:26:45,763 INFO    Thread-25 :9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\settings
+2023-03-28 17:26:45,763 INFO    Thread-25 :9900 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'TEDA_Regressor', 'entity': 'embarca-ai', 'root_dir': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor', 'run_id': 'ir5kwjc0', 'sweep_param_path': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor\\wandb\\sweep-mq0bccda\\config-ir5kwjc0.yaml', 'sweep_id': 'mq0bccda'}
+2023-03-28 17:26:45,763 INFO    Thread-25 :9900 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-03-28 17:26:45,763 INFO    Thread-25 :9900 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-03-28 17:26:45,763 INFO    Thread-25 :9900 [wandb_init.py:_log_setup():506] Logging user logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_172645-ir5kwjc0\logs\debug.log
+2023-03-28 17:26:45,763 INFO    Thread-25 :9900 [wandb_init.py:_log_setup():507] Logging internal logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_172645-ir5kwjc0\logs\debug-internal.log
+2023-03-28 17:26:45,763 INFO    Thread-25 :9900 [wandb_init.py:init():546] calling init triggers
+2023-03-28 17:26:45,763 INFO    Thread-25 :9900 [wandb_init.py:init():552] wandb.init called with sweep_config: {'ActList': 'relu', 'OptList': 'adam', 'Window': 3}
+config: {}
+2023-03-28 17:26:45,763 INFO    Thread-25 :9900 [wandb_init.py:init():602] starting backend
+2023-03-28 17:26:45,763 INFO    Thread-25 :9900 [wandb_init.py:init():606] setting up manager
+2023-03-28 17:26:45,779 INFO    Thread-25 :9900 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-03-28 17:26:45,779 INFO    Thread-25 :9900 [wandb_init.py:init():613] backend started and connected
+2023-03-28 17:26:45,810 INFO    Thread-25 :9900 [wandb_run.py:_config_callback():1251] config_cb None None {'ActList': 'relu', 'OptList': 'adam', 'Window': 3}
+2023-03-28 17:26:45,810 INFO    Thread-25 :9900 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2023-03-28 17:26:45,810 INFO    Thread-25 :9900 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-03-28 17:26:45,810 INFO    Thread-25 :9900 [wandb_init.py:init():701] updated telemetry
+2023-03-28 17:26:45,904 INFO    Thread-25 :9900 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-03-28 17:26:46,591 INFO    Thread-25 :9900 [wandb_run.py:_on_init():2133] communicating current version
+2023-03-28 17:26:46,685 INFO    Thread-25 :9900 [wandb_run.py:_on_init():2142] got version response 
+2023-03-28 17:26:46,685 INFO    Thread-25 :9900 [wandb_init.py:init():789] starting run threads in backend
+2023-03-28 17:27:06,455 INFO    Thread-25 :9900 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-28 17:27:06,455 INFO    Thread-25 :9900 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-28 17:27:06,455 INFO    Thread-25 :9900 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-28 17:27:06,455 INFO    Thread-25 :9900 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-28 17:27:06,455 INFO    Thread-25 :9900 [wandb_init.py:init():831] run started, returning control to user process
+2023-03-28 17:28:01,257 INFO    Thread-25 :9900 [wandb_run.py:_finish():1854] finishing run embarca-ai/TEDA_Regressor/ir5kwjc0
+2023-03-28 17:28:01,257 INFO    Thread-25 :9900 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-03-28 17:28:01,270 INFO    Thread-25 :9900 [wandb_run.py:_restore():2066] restore
+2023-03-28 17:28:01,270 INFO    Thread-25 :9900 [wandb_run.py:_restore():2072] restore done
+2023-03-28 17:28:06,615 INFO    Thread-25 :9900 [wandb_run.py:_footer_history_summary_info():3422] rendering history
+2023-03-28 17:28:06,615 INFO    Thread-25 :9900 [wandb_run.py:_footer_history_summary_info():3454] rendering summary
+2023-03-28 17:28:06,627 INFO    Thread-25 :9900 [wandb_run.py:_footer_sync_info():3380] logging synced files
+2023-03-28 17:28:15,984 INFO    Thread-34 :9900 [wandb_setup.py:_flush():76] Configure stats pid to 9900
+2023-03-28 17:28:15,984 INFO    Thread-34 :9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\.config\wandb\settings
+2023-03-28 17:28:15,984 INFO    Thread-34 :9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\settings
+2023-03-28 17:28:15,984 INFO    Thread-34 :9900 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'TEDA_Regressor', 'entity': 'embarca-ai', 'root_dir': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor', 'run_id': '5c7g9pv4', 'sweep_param_path': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor\\wandb\\sweep-mq0bccda\\config-5c7g9pv4.yaml', 'sweep_id': 'mq0bccda'}
+2023-03-28 17:28:15,984 INFO    Thread-34 :9900 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-03-28 17:28:15,984 INFO    Thread-34 :9900 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-03-28 17:28:15,984 INFO    Thread-34 :9900 [wandb_init.py:_log_setup():506] Logging user logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_172815-5c7g9pv4\logs\debug.log
+2023-03-28 17:28:15,984 INFO    Thread-34 :9900 [wandb_init.py:_log_setup():507] Logging internal logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_172815-5c7g9pv4\logs\debug-internal.log
+2023-03-28 17:28:15,984 INFO    Thread-34 :9900 [wandb_init.py:init():546] calling init triggers
+2023-03-28 17:28:15,984 INFO    Thread-34 :9900 [wandb_init.py:init():552] wandb.init called with sweep_config: {'ActList': 'relu', 'OptList': 'adam', 'Window': 4}
+config: {}
+2023-03-28 17:28:15,984 INFO    Thread-34 :9900 [wandb_init.py:init():602] starting backend
+2023-03-28 17:28:15,984 INFO    Thread-34 :9900 [wandb_init.py:init():606] setting up manager
+2023-03-28 17:28:16,000 INFO    Thread-34 :9900 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-03-28 17:28:16,000 INFO    Thread-34 :9900 [wandb_init.py:init():613] backend started and connected
+2023-03-28 17:28:16,031 INFO    Thread-34 :9900 [wandb_run.py:_config_callback():1251] config_cb None None {'ActList': 'relu', 'OptList': 'adam', 'Window': 4}
+2023-03-28 17:28:16,031 INFO    Thread-34 :9900 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2023-03-28 17:28:16,031 INFO    Thread-34 :9900 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-03-28 17:28:16,031 INFO    Thread-34 :9900 [wandb_init.py:init():701] updated telemetry
+2023-03-28 17:28:16,093 INFO    Thread-34 :9900 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-03-28 17:28:16,797 INFO    Thread-34 :9900 [wandb_run.py:_on_init():2133] communicating current version
+2023-03-28 17:28:16,922 INFO    Thread-34 :9900 [wandb_run.py:_on_init():2142] got version response 
+2023-03-28 17:28:16,922 INFO    Thread-34 :9900 [wandb_init.py:init():789] starting run threads in backend
+2023-03-28 17:28:37,573 INFO    Thread-34 :9900 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-28 17:28:37,573 INFO    Thread-34 :9900 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-28 17:28:37,574 INFO    Thread-34 :9900 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-28 17:28:37,574 INFO    Thread-34 :9900 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-28 17:28:37,575 INFO    Thread-34 :9900 [wandb_init.py:init():831] run started, returning control to user process
+2023-03-28 17:29:36,105 INFO    Thread-34 :9900 [wandb_run.py:_finish():1854] finishing run embarca-ai/TEDA_Regressor/5c7g9pv4
+2023-03-28 17:29:36,106 INFO    Thread-34 :9900 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-03-28 17:29:36,106 INFO    Thread-34 :9900 [wandb_run.py:_restore():2066] restore
+2023-03-28 17:29:36,107 INFO    Thread-34 :9900 [wandb_run.py:_restore():2072] restore done
+2023-03-28 17:29:41,952 INFO    Thread-34 :9900 [wandb_run.py:_footer_history_summary_info():3422] rendering history
+2023-03-28 17:29:41,952 INFO    Thread-34 :9900 [wandb_run.py:_footer_history_summary_info():3454] rendering summary
+2023-03-28 17:29:41,960 INFO    Thread-34 :9900 [wandb_run.py:_footer_sync_info():3380] logging synced files
+2023-03-28 17:29:56,420 INFO    Thread-43 :9900 [wandb_setup.py:_flush():76] Configure stats pid to 9900
+2023-03-28 17:29:56,420 INFO    Thread-43 :9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\.config\wandb\settings
+2023-03-28 17:29:56,420 INFO    Thread-43 :9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\settings
+2023-03-28 17:29:56,420 INFO    Thread-43 :9900 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'TEDA_Regressor', 'entity': 'embarca-ai', 'root_dir': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor', 'run_id': 'c7pjll1p', 'sweep_param_path': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor\\wandb\\sweep-mq0bccda\\config-c7pjll1p.yaml', 'sweep_id': 'mq0bccda'}
+2023-03-28 17:29:56,436 INFO    Thread-43 :9900 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-03-28 17:29:56,436 INFO    Thread-43 :9900 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-03-28 17:29:56,436 INFO    Thread-43 :9900 [wandb_init.py:_log_setup():506] Logging user logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_172956-c7pjll1p\logs\debug.log
+2023-03-28 17:29:56,436 INFO    Thread-43 :9900 [wandb_init.py:_log_setup():507] Logging internal logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_172956-c7pjll1p\logs\debug-internal.log
+2023-03-28 17:29:56,436 INFO    Thread-43 :9900 [wandb_init.py:init():546] calling init triggers
+2023-03-28 17:29:56,436 INFO    Thread-43 :9900 [wandb_init.py:init():552] wandb.init called with sweep_config: {'ActList': 'relu', 'OptList': 'adam', 'Window': 5}
+config: {}
+2023-03-28 17:29:56,436 INFO    Thread-43 :9900 [wandb_init.py:init():602] starting backend
+2023-03-28 17:29:56,436 INFO    Thread-43 :9900 [wandb_init.py:init():606] setting up manager
+2023-03-28 17:29:56,436 INFO    Thread-43 :9900 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-03-28 17:29:56,451 INFO    Thread-43 :9900 [wandb_init.py:init():613] backend started and connected
+2023-03-28 17:29:56,483 INFO    Thread-43 :9900 [wandb_run.py:_config_callback():1251] config_cb None None {'ActList': 'relu', 'OptList': 'adam', 'Window': 5}
+2023-03-28 17:29:56,498 INFO    Thread-43 :9900 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2023-03-28 17:29:56,498 INFO    Thread-43 :9900 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-03-28 17:29:56,498 INFO    Thread-43 :9900 [wandb_init.py:init():701] updated telemetry
+2023-03-28 17:29:56,576 INFO    Thread-43 :9900 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-03-28 17:29:57,316 INFO    Thread-43 :9900 [wandb_run.py:_on_init():2133] communicating current version
+2023-03-28 17:29:57,410 INFO    Thread-43 :9900 [wandb_run.py:_on_init():2142] got version response 
+2023-03-28 17:29:57,410 INFO    Thread-43 :9900 [wandb_init.py:init():789] starting run threads in backend
+2023-03-28 17:30:17,705 INFO    Thread-43 :9900 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-28 17:30:17,705 INFO    Thread-43 :9900 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-28 17:30:17,705 INFO    Thread-43 :9900 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-28 17:30:17,705 INFO    Thread-43 :9900 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-28 17:30:17,705 INFO    Thread-43 :9900 [wandb_init.py:init():831] run started, returning control to user process
+2023-03-28 17:31:15,487 INFO    Thread-43 :9900 [wandb_run.py:_finish():1854] finishing run embarca-ai/TEDA_Regressor/c7pjll1p
+2023-03-28 17:31:15,487 INFO    Thread-43 :9900 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-03-28 17:31:15,487 INFO    Thread-43 :9900 [wandb_run.py:_restore():2066] restore
+2023-03-28 17:31:15,487 INFO    Thread-43 :9900 [wandb_run.py:_restore():2072] restore done
+2023-03-28 17:31:21,314 INFO    Thread-43 :9900 [wandb_run.py:_footer_history_summary_info():3422] rendering history
+2023-03-28 17:31:21,314 INFO    Thread-43 :9900 [wandb_run.py:_footer_history_summary_info():3454] rendering summary
+2023-03-28 17:31:21,314 INFO    Thread-43 :9900 [wandb_run.py:_footer_sync_info():3380] logging synced files
+2023-03-28 17:31:27,656 INFO    Thread-52 :9900 [wandb_setup.py:_flush():76] Configure stats pid to 9900
+2023-03-28 17:31:27,656 INFO    Thread-52 :9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\.config\wandb\settings
+2023-03-28 17:31:27,656 INFO    Thread-52 :9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\settings
+2023-03-28 17:31:27,656 INFO    Thread-52 :9900 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'TEDA_Regressor', 'entity': 'embarca-ai', 'root_dir': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor', 'run_id': 'wcbbozix', 'sweep_param_path': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor\\wandb\\sweep-mq0bccda\\config-wcbbozix.yaml', 'sweep_id': 'mq0bccda'}
+2023-03-28 17:31:27,672 INFO    Thread-52 :9900 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-03-28 17:31:27,672 INFO    Thread-52 :9900 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-03-28 17:31:27,672 INFO    Thread-52 :9900 [wandb_init.py:_log_setup():506] Logging user logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_173127-wcbbozix\logs\debug.log
+2023-03-28 17:31:27,672 INFO    Thread-52 :9900 [wandb_init.py:_log_setup():507] Logging internal logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_173127-wcbbozix\logs\debug-internal.log
+2023-03-28 17:31:27,672 INFO    Thread-52 :9900 [wandb_init.py:init():546] calling init triggers
+2023-03-28 17:31:27,672 INFO    Thread-52 :9900 [wandb_init.py:init():552] wandb.init called with sweep_config: {'ActList': 'relu', 'OptList': 'adam', 'Window': 6}
+config: {}
+2023-03-28 17:31:27,672 INFO    Thread-52 :9900 [wandb_init.py:init():602] starting backend
+2023-03-28 17:31:27,672 INFO    Thread-52 :9900 [wandb_init.py:init():606] setting up manager
+2023-03-28 17:31:27,672 INFO    Thread-52 :9900 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-03-28 17:31:27,687 INFO    Thread-52 :9900 [wandb_init.py:init():613] backend started and connected
+2023-03-28 17:31:27,703 INFO    Thread-52 :9900 [wandb_run.py:_config_callback():1251] config_cb None None {'ActList': 'relu', 'OptList': 'adam', 'Window': 6}
+2023-03-28 17:31:27,703 INFO    Thread-52 :9900 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2023-03-28 17:31:27,703 INFO    Thread-52 :9900 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-03-28 17:31:27,703 INFO    Thread-52 :9900 [wandb_init.py:init():701] updated telemetry
+2023-03-28 17:31:27,774 INFO    Thread-52 :9900 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-03-28 17:31:28,468 INFO    Thread-52 :9900 [wandb_run.py:_on_init():2133] communicating current version
+2023-03-28 17:31:28,546 INFO    Thread-52 :9900 [wandb_run.py:_on_init():2142] got version response 
+2023-03-28 17:31:28,546 INFO    Thread-52 :9900 [wandb_init.py:init():789] starting run threads in backend
+2023-03-28 17:31:47,913 INFO    Thread-52 :9900 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-28 17:31:47,913 INFO    Thread-52 :9900 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-28 17:31:47,913 INFO    Thread-52 :9900 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-28 17:31:47,913 INFO    Thread-52 :9900 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-28 17:31:47,913 INFO    Thread-52 :9900 [wandb_init.py:init():831] run started, returning control to user process
+2023-03-28 17:32:43,759 INFO    Thread-52 :9900 [wandb_run.py:_finish():1854] finishing run embarca-ai/TEDA_Regressor/wcbbozix
+2023-03-28 17:32:43,759 INFO    Thread-52 :9900 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-03-28 17:32:43,759 INFO    Thread-52 :9900 [wandb_run.py:_restore():2066] restore
+2023-03-28 17:32:43,759 INFO    Thread-52 :9900 [wandb_run.py:_restore():2072] restore done
+2023-03-28 17:32:49,435 INFO    Thread-52 :9900 [wandb_run.py:_footer_history_summary_info():3422] rendering history
+2023-03-28 17:32:49,435 INFO    Thread-52 :9900 [wandb_run.py:_footer_history_summary_info():3454] rendering summary
+2023-03-28 17:32:49,444 INFO    Thread-52 :9900 [wandb_run.py:_footer_sync_info():3380] logging synced files
+2023-03-28 17:32:56,574 INFO    Thread-61 :9900 [wandb_setup.py:_flush():76] Configure stats pid to 9900
+2023-03-28 17:32:56,574 INFO    Thread-61 :9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\.config\wandb\settings
+2023-03-28 17:32:56,574 INFO    Thread-61 :9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\settings
+2023-03-28 17:32:56,574 INFO    Thread-61 :9900 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'TEDA_Regressor', 'entity': 'embarca-ai', 'root_dir': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor', 'run_id': '2dgimvst', 'sweep_param_path': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor\\wandb\\sweep-mq0bccda\\config-2dgimvst.yaml', 'sweep_id': 'mq0bccda'}
+2023-03-28 17:32:56,574 INFO    Thread-61 :9900 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-03-28 17:32:56,574 INFO    Thread-61 :9900 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-03-28 17:32:56,574 INFO    Thread-61 :9900 [wandb_init.py:_log_setup():506] Logging user logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_173256-2dgimvst\logs\debug.log
+2023-03-28 17:32:56,574 INFO    Thread-61 :9900 [wandb_init.py:_log_setup():507] Logging internal logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_173256-2dgimvst\logs\debug-internal.log
+2023-03-28 17:32:56,574 INFO    Thread-61 :9900 [wandb_init.py:init():546] calling init triggers
+2023-03-28 17:32:56,574 INFO    Thread-61 :9900 [wandb_init.py:init():552] wandb.init called with sweep_config: {'ActList': 'relu', 'OptList': 'sgd', 'Window': 2}
+config: {}
+2023-03-28 17:32:56,574 INFO    Thread-61 :9900 [wandb_init.py:init():602] starting backend
+2023-03-28 17:32:56,574 INFO    Thread-61 :9900 [wandb_init.py:init():606] setting up manager
+2023-03-28 17:32:56,574 INFO    Thread-61 :9900 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-03-28 17:32:56,589 INFO    Thread-61 :9900 [wandb_init.py:init():613] backend started and connected
+2023-03-28 17:32:56,605 INFO    Thread-61 :9900 [wandb_run.py:_config_callback():1251] config_cb None None {'ActList': 'relu', 'OptList': 'sgd', 'Window': 2}
+2023-03-28 17:32:56,605 INFO    Thread-61 :9900 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2023-03-28 17:32:56,605 INFO    Thread-61 :9900 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-03-28 17:32:56,605 INFO    Thread-61 :9900 [wandb_init.py:init():701] updated telemetry
+2023-03-28 17:32:56,668 INFO    Thread-61 :9900 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-03-28 17:32:57,355 INFO    Thread-61 :9900 [wandb_run.py:_on_init():2133] communicating current version
+2023-03-28 17:32:57,433 INFO    Thread-61 :9900 [wandb_run.py:_on_init():2142] got version response 
+2023-03-28 17:32:57,433 INFO    Thread-61 :9900 [wandb_init.py:init():789] starting run threads in backend
+2023-03-28 17:33:16,348 INFO    Thread-61 :9900 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-28 17:33:16,348 INFO    Thread-61 :9900 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-28 17:33:16,348 INFO    Thread-61 :9900 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-28 17:33:16,348 INFO    Thread-61 :9900 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-28 17:33:16,348 INFO    Thread-61 :9900 [wandb_init.py:init():831] run started, returning control to user process
+2023-03-28 17:34:07,450 INFO    Thread-61 :9900 [wandb_run.py:_finish():1854] finishing run embarca-ai/TEDA_Regressor/2dgimvst
+2023-03-28 17:34:07,450 INFO    Thread-61 :9900 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-03-28 17:34:07,450 INFO    Thread-61 :9900 [wandb_run.py:_restore():2066] restore
+2023-03-28 17:34:07,450 INFO    Thread-61 :9900 [wandb_run.py:_restore():2072] restore done
+2023-03-28 17:34:13,453 INFO    Thread-61 :9900 [wandb_run.py:_footer_history_summary_info():3422] rendering history
+2023-03-28 17:34:13,453 INFO    Thread-61 :9900 [wandb_run.py:_footer_history_summary_info():3454] rendering summary
+2023-03-28 17:34:13,453 INFO    Thread-61 :9900 [wandb_run.py:_footer_sync_info():3380] logging synced files
+2023-03-28 17:34:26,662 INFO    Thread-70 :9900 [wandb_setup.py:_flush():76] Configure stats pid to 9900
+2023-03-28 17:34:26,662 INFO    Thread-70 :9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\.config\wandb\settings
+2023-03-28 17:34:26,662 INFO    Thread-70 :9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\settings
+2023-03-28 17:34:26,662 INFO    Thread-70 :9900 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'TEDA_Regressor', 'entity': 'embarca-ai', 'root_dir': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor', 'run_id': 'ygbaydeh', 'sweep_param_path': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor\\wandb\\sweep-mq0bccda\\config-ygbaydeh.yaml', 'sweep_id': 'mq0bccda'}
+2023-03-28 17:34:26,662 INFO    Thread-70 :9900 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-03-28 17:34:26,662 INFO    Thread-70 :9900 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-03-28 17:34:26,662 INFO    Thread-70 :9900 [wandb_init.py:_log_setup():506] Logging user logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_173426-ygbaydeh\logs\debug.log
+2023-03-28 17:34:26,662 INFO    Thread-70 :9900 [wandb_init.py:_log_setup():507] Logging internal logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_173426-ygbaydeh\logs\debug-internal.log
+2023-03-28 17:34:26,662 INFO    Thread-70 :9900 [wandb_init.py:init():546] calling init triggers
+2023-03-28 17:34:26,662 INFO    Thread-70 :9900 [wandb_init.py:init():552] wandb.init called with sweep_config: {'ActList': 'relu', 'OptList': 'sgd', 'Window': 3}
+config: {}
+2023-03-28 17:34:26,662 INFO    Thread-70 :9900 [wandb_init.py:init():602] starting backend
+2023-03-28 17:34:26,662 INFO    Thread-70 :9900 [wandb_init.py:init():606] setting up manager
+2023-03-28 17:34:26,678 INFO    Thread-70 :9900 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-03-28 17:34:26,694 INFO    Thread-70 :9900 [wandb_init.py:init():613] backend started and connected
+2023-03-28 17:34:26,709 INFO    Thread-70 :9900 [wandb_run.py:_config_callback():1251] config_cb None None {'ActList': 'relu', 'OptList': 'sgd', 'Window': 3}
+2023-03-28 17:34:26,709 INFO    Thread-70 :9900 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2023-03-28 17:34:26,709 INFO    Thread-70 :9900 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-03-28 17:34:26,709 INFO    Thread-70 :9900 [wandb_init.py:init():701] updated telemetry
+2023-03-28 17:34:26,772 INFO    Thread-70 :9900 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-03-28 17:34:27,475 INFO    Thread-70 :9900 [wandb_run.py:_on_init():2133] communicating current version
+2023-03-28 17:34:27,553 INFO    Thread-70 :9900 [wandb_run.py:_on_init():2142] got version response 
+2023-03-28 17:34:27,553 INFO    Thread-70 :9900 [wandb_init.py:init():789] starting run threads in backend
+2023-03-28 17:34:45,040 INFO    Thread-70 :9900 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-28 17:34:45,040 INFO    Thread-70 :9900 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-28 17:34:45,040 INFO    Thread-70 :9900 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-28 17:34:45,040 INFO    Thread-70 :9900 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-28 17:34:45,040 INFO    Thread-70 :9900 [wandb_init.py:init():831] run started, returning control to user process
+2023-03-28 17:35:38,376 INFO    Thread-70 :9900 [wandb_run.py:_finish():1854] finishing run embarca-ai/TEDA_Regressor/ygbaydeh
+2023-03-28 17:35:38,377 INFO    Thread-70 :9900 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-03-28 17:35:38,377 INFO    Thread-70 :9900 [wandb_run.py:_restore():2066] restore
+2023-03-28 17:35:38,377 INFO    Thread-70 :9900 [wandb_run.py:_restore():2072] restore done
+2023-03-28 17:35:44,433 INFO    Thread-70 :9900 [wandb_run.py:_footer_history_summary_info():3422] rendering history
+2023-03-28 17:35:44,433 INFO    Thread-70 :9900 [wandb_run.py:_footer_history_summary_info():3454] rendering summary
+2023-03-28 17:35:44,442 INFO    Thread-70 :9900 [wandb_run.py:_footer_sync_info():3380] logging synced files
+2023-03-28 17:35:52,566 INFO    Thread-78 :9900 [wandb_setup.py:_flush():76] Configure stats pid to 9900
+2023-03-28 17:35:52,566 INFO    Thread-78 :9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\.config\wandb\settings
+2023-03-28 17:35:52,566 INFO    Thread-78 :9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\settings
+2023-03-28 17:35:52,566 INFO    Thread-78 :9900 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'TEDA_Regressor', 'entity': 'embarca-ai', 'root_dir': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor', 'run_id': 'jt5fdnme', 'sweep_param_path': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor\\wandb\\sweep-mq0bccda\\config-jt5fdnme.yaml', 'sweep_id': 'mq0bccda'}
+2023-03-28 17:35:52,566 INFO    Thread-78 :9900 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-03-28 17:35:52,566 INFO    Thread-78 :9900 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-03-28 17:35:52,566 INFO    Thread-78 :9900 [wandb_init.py:_log_setup():506] Logging user logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_173552-jt5fdnme\logs\debug.log
+2023-03-28 17:35:52,566 INFO    Thread-78 :9900 [wandb_init.py:_log_setup():507] Logging internal logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_173552-jt5fdnme\logs\debug-internal.log
+2023-03-28 17:35:52,566 INFO    Thread-78 :9900 [wandb_init.py:init():546] calling init triggers
+2023-03-28 17:35:52,566 INFO    Thread-78 :9900 [wandb_init.py:init():552] wandb.init called with sweep_config: {'ActList': 'relu', 'OptList': 'sgd', 'Window': 4}
+config: {}
+2023-03-28 17:35:52,566 INFO    Thread-78 :9900 [wandb_init.py:init():602] starting backend
+2023-03-28 17:35:52,566 INFO    Thread-78 :9900 [wandb_init.py:init():606] setting up manager
+2023-03-28 17:35:52,566 INFO    Thread-78 :9900 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-03-28 17:35:52,582 INFO    Thread-78 :9900 [wandb_init.py:init():613] backend started and connected
+2023-03-28 17:35:52,598 INFO    Thread-78 :9900 [wandb_run.py:_config_callback():1251] config_cb None None {'ActList': 'relu', 'OptList': 'sgd', 'Window': 4}
+2023-03-28 17:35:52,613 INFO    Thread-78 :9900 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2023-03-28 17:35:52,613 INFO    Thread-78 :9900 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-03-28 17:35:52,613 INFO    Thread-78 :9900 [wandb_init.py:init():701] updated telemetry
+2023-03-28 17:35:52,676 INFO    Thread-78 :9900 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-03-28 17:35:53,363 INFO    Thread-78 :9900 [wandb_run.py:_on_init():2133] communicating current version
+2023-03-28 17:35:53,473 INFO    Thread-78 :9900 [wandb_run.py:_on_init():2142] got version response 
+2023-03-28 17:35:53,473 INFO    Thread-78 :9900 [wandb_init.py:init():789] starting run threads in backend
+2023-03-28 17:36:12,694 INFO    Thread-78 :9900 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-28 17:36:12,694 INFO    Thread-78 :9900 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-28 17:36:12,694 INFO    Thread-78 :9900 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-28 17:36:12,694 INFO    Thread-78 :9900 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-28 17:36:12,694 INFO    Thread-78 :9900 [wandb_init.py:init():831] run started, returning control to user process
+2023-03-28 17:37:04,414 INFO    Thread-78 :9900 [wandb_run.py:_finish():1854] finishing run embarca-ai/TEDA_Regressor/jt5fdnme
+2023-03-28 17:37:04,414 INFO    Thread-78 :9900 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-03-28 17:37:04,415 INFO    Thread-78 :9900 [wandb_run.py:_restore():2066] restore
+2023-03-28 17:37:04,415 INFO    Thread-78 :9900 [wandb_run.py:_restore():2072] restore done
+2023-03-28 17:37:10,304 INFO    Thread-78 :9900 [wandb_run.py:_footer_history_summary_info():3422] rendering history
+2023-03-28 17:37:10,304 INFO    Thread-78 :9900 [wandb_run.py:_footer_history_summary_info():3454] rendering summary
+2023-03-28 17:37:10,323 INFO    Thread-78 :9900 [wandb_run.py:_footer_sync_info():3380] logging synced files
+2023-03-28 17:37:18,602 INFO    Thread-87 :9900 [wandb_setup.py:_flush():76] Configure stats pid to 9900
+2023-03-28 17:37:18,602 INFO    Thread-87 :9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\.config\wandb\settings
+2023-03-28 17:37:18,602 INFO    Thread-87 :9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\settings
+2023-03-28 17:37:18,602 INFO    Thread-87 :9900 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'TEDA_Regressor', 'entity': 'embarca-ai', 'root_dir': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor', 'run_id': 'fmwdrqga', 'sweep_param_path': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor\\wandb\\sweep-mq0bccda\\config-fmwdrqga.yaml', 'sweep_id': 'mq0bccda'}
+2023-03-28 17:37:18,602 INFO    Thread-87 :9900 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-03-28 17:37:18,602 INFO    Thread-87 :9900 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-03-28 17:37:18,602 INFO    Thread-87 :9900 [wandb_init.py:_log_setup():506] Logging user logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_173718-fmwdrqga\logs\debug.log
+2023-03-28 17:37:18,602 INFO    Thread-87 :9900 [wandb_init.py:_log_setup():507] Logging internal logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_173718-fmwdrqga\logs\debug-internal.log
+2023-03-28 17:37:18,602 INFO    Thread-87 :9900 [wandb_init.py:init():546] calling init triggers
+2023-03-28 17:37:18,602 INFO    Thread-87 :9900 [wandb_init.py:init():552] wandb.init called with sweep_config: {'ActList': 'relu', 'OptList': 'sgd', 'Window': 5}
+config: {}
+2023-03-28 17:37:18,602 INFO    Thread-87 :9900 [wandb_init.py:init():602] starting backend
+2023-03-28 17:37:18,602 INFO    Thread-87 :9900 [wandb_init.py:init():606] setting up manager
+2023-03-28 17:37:18,602 INFO    Thread-87 :9900 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-03-28 17:37:18,617 INFO    Thread-87 :9900 [wandb_init.py:init():613] backend started and connected
+2023-03-28 17:37:18,633 INFO    Thread-87 :9900 [wandb_run.py:_config_callback():1251] config_cb None None {'ActList': 'relu', 'OptList': 'sgd', 'Window': 5}
+2023-03-28 17:37:18,633 INFO    Thread-87 :9900 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2023-03-28 17:37:18,633 INFO    Thread-87 :9900 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-03-28 17:37:18,633 INFO    Thread-87 :9900 [wandb_init.py:init():701] updated telemetry
+2023-03-28 17:37:18,695 INFO    Thread-87 :9900 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-03-28 17:37:19,367 INFO    Thread-87 :9900 [wandb_run.py:_on_init():2133] communicating current version
+2023-03-28 17:37:20,578 INFO    Thread-87 :9900 [wandb_run.py:_on_init():2142] got version response 
+2023-03-28 17:37:20,578 INFO    Thread-87 :9900 [wandb_init.py:init():789] starting run threads in backend
+2023-03-28 17:37:37,976 INFO    Thread-87 :9900 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-28 17:37:37,977 INFO    Thread-87 :9900 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-28 17:37:37,978 INFO    Thread-87 :9900 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-28 17:37:37,978 INFO    Thread-87 :9900 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-28 17:37:37,978 INFO    Thread-87 :9900 [wandb_init.py:init():831] run started, returning control to user process
+2023-03-28 17:38:31,055 INFO    Thread-87 :9900 [wandb_run.py:_finish():1854] finishing run embarca-ai/TEDA_Regressor/fmwdrqga
+2023-03-28 17:38:31,055 INFO    Thread-87 :9900 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-03-28 17:38:31,055 INFO    Thread-87 :9900 [wandb_run.py:_restore():2066] restore
+2023-03-28 17:38:31,055 INFO    Thread-87 :9900 [wandb_run.py:_restore():2072] restore done
+2023-03-28 17:38:36,398 INFO    Thread-87 :9900 [wandb_run.py:_footer_history_summary_info():3422] rendering history
+2023-03-28 17:38:36,398 INFO    Thread-87 :9900 [wandb_run.py:_footer_history_summary_info():3454] rendering summary
+2023-03-28 17:38:36,414 INFO    Thread-87 :9900 [wandb_run.py:_footer_sync_info():3380] logging synced files
+2023-03-28 17:38:43,715 INFO    Thread-96 :9900 [wandb_setup.py:_flush():76] Configure stats pid to 9900
+2023-03-28 17:38:43,715 INFO    Thread-96 :9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\.config\wandb\settings
+2023-03-28 17:38:43,715 INFO    Thread-96 :9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\settings
+2023-03-28 17:38:43,715 INFO    Thread-96 :9900 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'TEDA_Regressor', 'entity': 'embarca-ai', 'root_dir': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor', 'run_id': 'sgya71ky', 'sweep_param_path': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor\\wandb\\sweep-mq0bccda\\config-sgya71ky.yaml', 'sweep_id': 'mq0bccda'}
+2023-03-28 17:38:43,715 INFO    Thread-96 :9900 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-03-28 17:38:43,730 INFO    Thread-96 :9900 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-03-28 17:38:43,730 INFO    Thread-96 :9900 [wandb_init.py:_log_setup():506] Logging user logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_173843-sgya71ky\logs\debug.log
+2023-03-28 17:38:43,730 INFO    Thread-96 :9900 [wandb_init.py:_log_setup():507] Logging internal logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_173843-sgya71ky\logs\debug-internal.log
+2023-03-28 17:38:43,730 INFO    Thread-96 :9900 [wandb_init.py:init():546] calling init triggers
+2023-03-28 17:38:43,730 INFO    Thread-96 :9900 [wandb_init.py:init():552] wandb.init called with sweep_config: {'ActList': 'relu', 'OptList': 'sgd', 'Window': 6}
+config: {}
+2023-03-28 17:38:43,730 INFO    Thread-96 :9900 [wandb_init.py:init():602] starting backend
+2023-03-28 17:38:43,730 INFO    Thread-96 :9900 [wandb_init.py:init():606] setting up manager
+2023-03-28 17:38:43,730 INFO    Thread-96 :9900 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-03-28 17:38:43,746 INFO    Thread-96 :9900 [wandb_init.py:init():613] backend started and connected
+2023-03-28 17:38:43,761 INFO    Thread-96 :9900 [wandb_run.py:_config_callback():1251] config_cb None None {'ActList': 'relu', 'OptList': 'sgd', 'Window': 6}
+2023-03-28 17:38:43,761 INFO    Thread-96 :9900 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2023-03-28 17:38:43,761 INFO    Thread-96 :9900 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-03-28 17:38:43,761 INFO    Thread-96 :9900 [wandb_init.py:init():701] updated telemetry
+2023-03-28 17:38:43,824 INFO    Thread-96 :9900 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-03-28 17:38:44,511 INFO    Thread-96 :9900 [wandb_run.py:_on_init():2133] communicating current version
+2023-03-28 17:38:44,621 INFO    Thread-96 :9900 [wandb_run.py:_on_init():2142] got version response 
+2023-03-28 17:38:44,621 INFO    Thread-96 :9900 [wandb_init.py:init():789] starting run threads in backend
+2023-03-28 17:39:02,638 INFO    Thread-96 :9900 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-28 17:39:02,638 INFO    Thread-96 :9900 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-28 17:39:02,638 INFO    Thread-96 :9900 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-28 17:39:02,638 INFO    Thread-96 :9900 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-28 17:39:02,639 INFO    Thread-96 :9900 [wandb_init.py:init():831] run started, returning control to user process
+2023-03-28 17:40:04,786 INFO    Thread-96 :9900 [wandb_run.py:_finish():1854] finishing run embarca-ai/TEDA_Regressor/sgya71ky
+2023-03-28 17:40:04,786 INFO    Thread-96 :9900 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-03-28 17:40:04,787 INFO    Thread-96 :9900 [wandb_run.py:_restore():2066] restore
+2023-03-28 17:40:04,787 INFO    Thread-96 :9900 [wandb_run.py:_restore():2072] restore done
+2023-03-28 17:40:10,679 INFO    Thread-96 :9900 [wandb_run.py:_footer_history_summary_info():3422] rendering history
+2023-03-28 17:40:10,679 INFO    Thread-96 :9900 [wandb_run.py:_footer_history_summary_info():3454] rendering summary
+2023-03-28 17:40:10,694 INFO    Thread-96 :9900 [wandb_run.py:_footer_sync_info():3380] logging synced files
+2023-03-28 17:40:25,992 INFO    Thread-105:9900 [wandb_setup.py:_flush():76] Configure stats pid to 9900
+2023-03-28 17:40:25,992 INFO    Thread-105:9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\.config\wandb\settings
+2023-03-28 17:40:25,992 INFO    Thread-105:9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\settings
+2023-03-28 17:40:25,992 INFO    Thread-105:9900 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'TEDA_Regressor', 'entity': 'embarca-ai', 'root_dir': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor', 'run_id': '4h0kpb0i', 'sweep_param_path': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor\\wandb\\sweep-mq0bccda\\config-4h0kpb0i.yaml', 'sweep_id': 'mq0bccda'}
+2023-03-28 17:40:26,023 INFO    Thread-105:9900 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-03-28 17:40:26,023 INFO    Thread-105:9900 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-03-28 17:40:26,023 INFO    Thread-105:9900 [wandb_init.py:_log_setup():506] Logging user logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_174025-4h0kpb0i\logs\debug.log
+2023-03-28 17:40:26,023 INFO    Thread-105:9900 [wandb_init.py:_log_setup():507] Logging internal logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_174025-4h0kpb0i\logs\debug-internal.log
+2023-03-28 17:40:26,023 INFO    Thread-105:9900 [wandb_init.py:init():546] calling init triggers
+2023-03-28 17:40:26,023 INFO    Thread-105:9900 [wandb_init.py:init():552] wandb.init called with sweep_config: {'ActList': 'relu', 'OptList': 'rmsprop', 'Window': 2}
+config: {}
+2023-03-28 17:40:26,023 INFO    Thread-105:9900 [wandb_init.py:init():602] starting backend
+2023-03-28 17:40:26,023 INFO    Thread-105:9900 [wandb_init.py:init():606] setting up manager
+2023-03-28 17:40:26,023 INFO    Thread-105:9900 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-03-28 17:40:26,039 INFO    Thread-105:9900 [wandb_init.py:init():613] backend started and connected
+2023-03-28 17:40:26,054 INFO    Thread-105:9900 [wandb_run.py:_config_callback():1251] config_cb None None {'ActList': 'relu', 'OptList': 'rmsprop', 'Window': 2}
+2023-03-28 17:40:26,054 INFO    Thread-105:9900 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2023-03-28 17:40:26,054 INFO    Thread-105:9900 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-03-28 17:40:26,054 INFO    Thread-105:9900 [wandb_init.py:init():701] updated telemetry
+2023-03-28 17:40:26,132 INFO    Thread-105:9900 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-03-28 17:40:26,804 INFO    Thread-105:9900 [wandb_run.py:_on_init():2133] communicating current version
+2023-03-28 17:40:26,898 INFO    Thread-105:9900 [wandb_run.py:_on_init():2142] got version response 
+2023-03-28 17:40:26,898 INFO    Thread-105:9900 [wandb_init.py:init():789] starting run threads in backend
+2023-03-28 17:40:51,496 INFO    Thread-105:9900 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-28 17:40:51,496 INFO    Thread-105:9900 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-28 17:40:51,496 INFO    Thread-105:9900 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-28 17:40:51,496 INFO    Thread-105:9900 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-28 17:40:51,512 INFO    Thread-105:9900 [wandb_init.py:init():831] run started, returning control to user process
+2023-03-28 17:41:43,397 INFO    Thread-105:9900 [wandb_run.py:_finish():1854] finishing run embarca-ai/TEDA_Regressor/4h0kpb0i
+2023-03-28 17:41:43,397 INFO    Thread-105:9900 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-03-28 17:41:43,398 INFO    Thread-105:9900 [wandb_run.py:_restore():2066] restore
+2023-03-28 17:41:43,398 INFO    Thread-105:9900 [wandb_run.py:_restore():2072] restore done
+2023-03-28 17:41:48,825 INFO    Thread-105:9900 [wandb_run.py:_footer_history_summary_info():3422] rendering history
+2023-03-28 17:41:48,825 INFO    Thread-105:9900 [wandb_run.py:_footer_history_summary_info():3454] rendering summary
+2023-03-28 17:41:48,840 INFO    Thread-105:9900 [wandb_run.py:_footer_sync_info():3380] logging synced files
+2023-03-28 17:42:00,356 INFO    Thread-113:9900 [wandb_setup.py:_flush():76] Configure stats pid to 9900
+2023-03-28 17:42:00,356 INFO    Thread-113:9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\.config\wandb\settings
+2023-03-28 17:42:00,356 INFO    Thread-113:9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\settings
+2023-03-28 17:42:00,356 INFO    Thread-113:9900 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'TEDA_Regressor', 'entity': 'embarca-ai', 'root_dir': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor', 'run_id': 'uly8iq37', 'sweep_param_path': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor\\wandb\\sweep-mq0bccda\\config-uly8iq37.yaml', 'sweep_id': 'mq0bccda'}
+2023-03-28 17:42:00,356 INFO    Thread-113:9900 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-03-28 17:42:00,356 INFO    Thread-113:9900 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-03-28 17:42:00,356 INFO    Thread-113:9900 [wandb_init.py:_log_setup():506] Logging user logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_174200-uly8iq37\logs\debug.log
+2023-03-28 17:42:00,356 INFO    Thread-113:9900 [wandb_init.py:_log_setup():507] Logging internal logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_174200-uly8iq37\logs\debug-internal.log
+2023-03-28 17:42:00,356 INFO    Thread-113:9900 [wandb_init.py:init():546] calling init triggers
+2023-03-28 17:42:00,356 INFO    Thread-113:9900 [wandb_init.py:init():552] wandb.init called with sweep_config: {'ActList': 'relu', 'OptList': 'rmsprop', 'Window': 3}
+config: {}
+2023-03-28 17:42:00,356 INFO    Thread-113:9900 [wandb_init.py:init():602] starting backend
+2023-03-28 17:42:00,356 INFO    Thread-113:9900 [wandb_init.py:init():606] setting up manager
+2023-03-28 17:42:00,371 INFO    Thread-113:9900 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-03-28 17:42:00,371 INFO    Thread-113:9900 [wandb_init.py:init():613] backend started and connected
+2023-03-28 17:42:00,403 INFO    Thread-113:9900 [wandb_run.py:_config_callback():1251] config_cb None None {'ActList': 'relu', 'OptList': 'rmsprop', 'Window': 3}
+2023-03-28 17:42:00,403 INFO    Thread-113:9900 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2023-03-28 17:42:00,403 INFO    Thread-113:9900 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-03-28 17:42:00,403 INFO    Thread-113:9900 [wandb_init.py:init():701] updated telemetry
+2023-03-28 17:42:00,512 INFO    Thread-113:9900 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-03-28 17:42:01,183 INFO    Thread-113:9900 [wandb_run.py:_on_init():2133] communicating current version
+2023-03-28 17:42:01,277 INFO    Thread-113:9900 [wandb_run.py:_on_init():2142] got version response 
+2023-03-28 17:42:01,277 INFO    Thread-113:9900 [wandb_init.py:init():789] starting run threads in backend
+2023-03-28 17:42:22,174 INFO    Thread-113:9900 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-28 17:42:22,174 INFO    Thread-113:9900 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-28 17:42:22,174 INFO    Thread-113:9900 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-28 17:42:22,174 INFO    Thread-113:9900 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-28 17:42:22,174 INFO    Thread-113:9900 [wandb_init.py:init():831] run started, returning control to user process
+2023-03-28 17:43:14,485 INFO    Thread-113:9900 [wandb_run.py:_finish():1854] finishing run embarca-ai/TEDA_Regressor/uly8iq37
+2023-03-28 17:43:14,485 INFO    Thread-113:9900 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-03-28 17:43:14,485 INFO    Thread-113:9900 [wandb_run.py:_restore():2066] restore
+2023-03-28 17:43:14,486 INFO    Thread-113:9900 [wandb_run.py:_restore():2072] restore done
+2023-03-28 17:43:20,208 INFO    Thread-113:9900 [wandb_run.py:_footer_history_summary_info():3422] rendering history
+2023-03-28 17:43:20,208 INFO    Thread-113:9900 [wandb_run.py:_footer_history_summary_info():3454] rendering summary
+2023-03-28 17:43:20,223 INFO    Thread-113:9900 [wandb_run.py:_footer_sync_info():3380] logging synced files
+2023-03-28 17:43:29,382 INFO    Thread-122:9900 [wandb_setup.py:_flush():76] Configure stats pid to 9900
+2023-03-28 17:43:29,382 INFO    Thread-122:9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\.config\wandb\settings
+2023-03-28 17:43:29,382 INFO    Thread-122:9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\settings
+2023-03-28 17:43:29,382 INFO    Thread-122:9900 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'TEDA_Regressor', 'entity': 'embarca-ai', 'root_dir': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor', 'run_id': 'km9tyazk', 'sweep_param_path': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor\\wandb\\sweep-mq0bccda\\config-km9tyazk.yaml', 'sweep_id': 'mq0bccda'}
+2023-03-28 17:43:29,382 INFO    Thread-122:9900 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-03-28 17:43:29,382 INFO    Thread-122:9900 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-03-28 17:43:29,382 INFO    Thread-122:9900 [wandb_init.py:_log_setup():506] Logging user logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_174329-km9tyazk\logs\debug.log
+2023-03-28 17:43:29,382 INFO    Thread-122:9900 [wandb_init.py:_log_setup():507] Logging internal logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_174329-km9tyazk\logs\debug-internal.log
+2023-03-28 17:43:29,382 INFO    Thread-122:9900 [wandb_init.py:init():546] calling init triggers
+2023-03-28 17:43:29,382 INFO    Thread-122:9900 [wandb_init.py:init():552] wandb.init called with sweep_config: {'ActList': 'relu', 'OptList': 'rmsprop', 'Window': 4}
+config: {}
+2023-03-28 17:43:29,382 INFO    Thread-122:9900 [wandb_init.py:init():602] starting backend
+2023-03-28 17:43:29,382 INFO    Thread-122:9900 [wandb_init.py:init():606] setting up manager
+2023-03-28 17:43:29,382 INFO    Thread-122:9900 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-03-28 17:43:29,398 INFO    Thread-122:9900 [wandb_init.py:init():613] backend started and connected
+2023-03-28 17:43:29,414 INFO    Thread-122:9900 [wandb_run.py:_config_callback():1251] config_cb None None {'ActList': 'relu', 'OptList': 'rmsprop', 'Window': 4}
+2023-03-28 17:43:29,414 INFO    Thread-122:9900 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2023-03-28 17:43:29,414 INFO    Thread-122:9900 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-03-28 17:43:29,414 INFO    Thread-122:9900 [wandb_init.py:init():701] updated telemetry
+2023-03-28 17:43:29,492 INFO    Thread-122:9900 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-03-28 17:43:30,166 INFO    Thread-122:9900 [wandb_run.py:_on_init():2133] communicating current version
+2023-03-28 17:43:30,244 INFO    Thread-122:9900 [wandb_run.py:_on_init():2142] got version response 
+2023-03-28 17:43:30,244 INFO    Thread-122:9900 [wandb_init.py:init():789] starting run threads in backend
+2023-03-28 17:43:48,295 INFO    Thread-122:9900 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-28 17:43:48,295 INFO    Thread-122:9900 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-28 17:43:48,295 INFO    Thread-122:9900 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-28 17:43:48,295 INFO    Thread-122:9900 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-28 17:43:48,295 INFO    Thread-122:9900 [wandb_init.py:init():831] run started, returning control to user process
+2023-03-28 17:44:41,798 INFO    Thread-122:9900 [wandb_run.py:_finish():1854] finishing run embarca-ai/TEDA_Regressor/km9tyazk
+2023-03-28 17:44:41,798 INFO    Thread-122:9900 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-03-28 17:44:41,798 INFO    Thread-122:9900 [wandb_run.py:_restore():2066] restore
+2023-03-28 17:44:41,798 INFO    Thread-122:9900 [wandb_run.py:_restore():2072] restore done
+2023-03-28 17:44:47,258 INFO    Thread-122:9900 [wandb_run.py:_footer_history_summary_info():3422] rendering history
+2023-03-28 17:44:47,258 INFO    Thread-122:9900 [wandb_run.py:_footer_history_summary_info():3454] rendering summary
+2023-03-28 17:44:47,274 INFO    Thread-122:9900 [wandb_run.py:_footer_sync_info():3380] logging synced files
+2023-03-28 17:44:53,399 INFO    Thread-131:9900 [wandb_setup.py:_flush():76] Configure stats pid to 9900
+2023-03-28 17:44:53,399 INFO    Thread-131:9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\.config\wandb\settings
+2023-03-28 17:44:53,399 INFO    Thread-131:9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\settings
+2023-03-28 17:44:53,399 INFO    Thread-131:9900 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'TEDA_Regressor', 'entity': 'embarca-ai', 'root_dir': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor', 'run_id': '4bjo8nwt', 'sweep_param_path': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor\\wandb\\sweep-mq0bccda\\config-4bjo8nwt.yaml', 'sweep_id': 'mq0bccda'}
+2023-03-28 17:44:53,399 INFO    Thread-131:9900 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-03-28 17:44:53,399 INFO    Thread-131:9900 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-03-28 17:44:53,399 INFO    Thread-131:9900 [wandb_init.py:_log_setup():506] Logging user logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_174453-4bjo8nwt\logs\debug.log
+2023-03-28 17:44:53,399 INFO    Thread-131:9900 [wandb_init.py:_log_setup():507] Logging internal logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_174453-4bjo8nwt\logs\debug-internal.log
+2023-03-28 17:44:53,399 INFO    Thread-131:9900 [wandb_init.py:init():546] calling init triggers
+2023-03-28 17:44:53,399 INFO    Thread-131:9900 [wandb_init.py:init():552] wandb.init called with sweep_config: {'ActList': 'relu', 'OptList': 'rmsprop', 'Window': 5}
+config: {}
+2023-03-28 17:44:53,399 INFO    Thread-131:9900 [wandb_init.py:init():602] starting backend
+2023-03-28 17:44:53,399 INFO    Thread-131:9900 [wandb_init.py:init():606] setting up manager
+2023-03-28 17:44:53,414 INFO    Thread-131:9900 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-03-28 17:44:53,414 INFO    Thread-131:9900 [wandb_init.py:init():613] backend started and connected
+2023-03-28 17:44:53,445 INFO    Thread-131:9900 [wandb_run.py:_config_callback():1251] config_cb None None {'ActList': 'relu', 'OptList': 'rmsprop', 'Window': 5}
+2023-03-28 17:44:53,445 INFO    Thread-131:9900 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2023-03-28 17:44:53,445 INFO    Thread-131:9900 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-03-28 17:44:53,445 INFO    Thread-131:9900 [wandb_init.py:init():701] updated telemetry
+2023-03-28 17:44:53,492 INFO    Thread-131:9900 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-03-28 17:44:54,180 INFO    Thread-131:9900 [wandb_run.py:_on_init():2133] communicating current version
+2023-03-28 17:44:54,258 INFO    Thread-131:9900 [wandb_run.py:_on_init():2142] got version response 
+2023-03-28 17:44:54,258 INFO    Thread-131:9900 [wandb_init.py:init():789] starting run threads in backend
+2023-03-28 17:45:12,851 INFO    Thread-131:9900 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-28 17:45:12,852 INFO    Thread-131:9900 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-28 17:45:12,852 INFO    Thread-131:9900 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-28 17:45:12,852 INFO    Thread-131:9900 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-28 17:45:12,854 INFO    Thread-131:9900 [wandb_init.py:init():831] run started, returning control to user process
+2023-03-28 17:46:08,186 INFO    Thread-131:9900 [wandb_run.py:_finish():1854] finishing run embarca-ai/TEDA_Regressor/4bjo8nwt
+2023-03-28 17:46:08,186 INFO    Thread-131:9900 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-03-28 17:46:08,186 INFO    Thread-131:9900 [wandb_run.py:_restore():2066] restore
+2023-03-28 17:46:08,186 INFO    Thread-131:9900 [wandb_run.py:_restore():2072] restore done
+2023-03-28 17:46:14,424 INFO    Thread-131:9900 [wandb_run.py:_footer_history_summary_info():3422] rendering history
+2023-03-28 17:46:14,424 INFO    Thread-131:9900 [wandb_run.py:_footer_history_summary_info():3454] rendering summary
+2023-03-28 17:46:14,434 INFO    Thread-131:9900 [wandb_run.py:_footer_sync_info():3380] logging synced files
+2023-03-28 17:46:28,790 INFO    Thread-140:9900 [wandb_setup.py:_flush():76] Configure stats pid to 9900
+2023-03-28 17:46:28,790 INFO    Thread-140:9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\.config\wandb\settings
+2023-03-28 17:46:28,790 INFO    Thread-140:9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\settings
+2023-03-28 17:46:28,790 INFO    Thread-140:9900 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'TEDA_Regressor', 'entity': 'embarca-ai', 'root_dir': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor', 'run_id': 'aoy92uzc', 'sweep_param_path': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor\\wandb\\sweep-mq0bccda\\config-aoy92uzc.yaml', 'sweep_id': 'mq0bccda'}
+2023-03-28 17:46:28,806 INFO    Thread-140:9900 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-03-28 17:46:28,806 INFO    Thread-140:9900 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-03-28 17:46:28,806 INFO    Thread-140:9900 [wandb_init.py:_log_setup():506] Logging user logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_174628-aoy92uzc\logs\debug.log
+2023-03-28 17:46:28,806 INFO    Thread-140:9900 [wandb_init.py:_log_setup():507] Logging internal logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_174628-aoy92uzc\logs\debug-internal.log
+2023-03-28 17:46:28,806 INFO    Thread-140:9900 [wandb_init.py:init():546] calling init triggers
+2023-03-28 17:46:28,806 INFO    Thread-140:9900 [wandb_init.py:init():552] wandb.init called with sweep_config: {'ActList': 'relu', 'OptList': 'rmsprop', 'Window': 6}
+config: {}
+2023-03-28 17:46:28,806 INFO    Thread-140:9900 [wandb_init.py:init():602] starting backend
+2023-03-28 17:46:28,806 INFO    Thread-140:9900 [wandb_init.py:init():606] setting up manager
+2023-03-28 17:46:28,806 INFO    Thread-140:9900 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-03-28 17:46:28,821 INFO    Thread-140:9900 [wandb_init.py:init():613] backend started and connected
+2023-03-28 17:46:28,837 INFO    Thread-140:9900 [wandb_run.py:_config_callback():1251] config_cb None None {'ActList': 'relu', 'OptList': 'rmsprop', 'Window': 6}
+2023-03-28 17:46:28,837 INFO    Thread-140:9900 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2023-03-28 17:46:28,837 INFO    Thread-140:9900 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-03-28 17:46:28,837 INFO    Thread-140:9900 [wandb_init.py:init():701] updated telemetry
+2023-03-28 17:46:28,884 INFO    Thread-140:9900 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-03-28 17:46:29,572 INFO    Thread-140:9900 [wandb_run.py:_on_init():2133] communicating current version
+2023-03-28 17:46:29,650 INFO    Thread-140:9900 [wandb_run.py:_on_init():2142] got version response 
+2023-03-28 17:46:29,650 INFO    Thread-140:9900 [wandb_init.py:init():789] starting run threads in backend
+2023-03-28 17:46:47,060 INFO    Thread-140:9900 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-28 17:46:47,060 INFO    Thread-140:9900 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-28 17:46:47,061 INFO    Thread-140:9900 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-28 17:46:47,061 INFO    Thread-140:9900 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-28 17:46:47,063 INFO    Thread-140:9900 [wandb_init.py:init():831] run started, returning control to user process
+2023-03-28 17:47:48,883 INFO    Thread-140:9900 [wandb_run.py:_finish():1854] finishing run embarca-ai/TEDA_Regressor/aoy92uzc
+2023-03-28 17:47:48,883 INFO    Thread-140:9900 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-03-28 17:47:48,884 INFO    Thread-140:9900 [wandb_run.py:_restore():2066] restore
+2023-03-28 17:47:48,885 INFO    Thread-140:9900 [wandb_run.py:_restore():2072] restore done
+2023-03-28 17:47:54,760 INFO    Thread-140:9900 [wandb_run.py:_footer_history_summary_info():3422] rendering history
+2023-03-28 17:47:54,760 INFO    Thread-140:9900 [wandb_run.py:_footer_history_summary_info():3454] rendering summary
+2023-03-28 17:47:54,779 INFO    Thread-140:9900 [wandb_run.py:_footer_sync_info():3380] logging synced files
+2023-03-28 17:48:01,151 INFO    Thread-149:9900 [wandb_setup.py:_flush():76] Configure stats pid to 9900
+2023-03-28 17:48:01,151 INFO    Thread-149:9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\.config\wandb\settings
+2023-03-28 17:48:01,151 INFO    Thread-149:9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\settings
+2023-03-28 17:48:01,151 INFO    Thread-149:9900 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'TEDA_Regressor', 'entity': 'embarca-ai', 'root_dir': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor', 'run_id': 'wul71t0e', 'sweep_param_path': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor\\wandb\\sweep-mq0bccda\\config-wul71t0e.yaml', 'sweep_id': 'mq0bccda'}
+2023-03-28 17:48:01,151 INFO    Thread-149:9900 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-03-28 17:48:01,151 INFO    Thread-149:9900 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-03-28 17:48:01,151 INFO    Thread-149:9900 [wandb_init.py:_log_setup():506] Logging user logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_174801-wul71t0e\logs\debug.log
+2023-03-28 17:48:01,151 INFO    Thread-149:9900 [wandb_init.py:_log_setup():507] Logging internal logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_174801-wul71t0e\logs\debug-internal.log
+2023-03-28 17:48:01,151 INFO    Thread-149:9900 [wandb_init.py:init():546] calling init triggers
+2023-03-28 17:48:01,151 INFO    Thread-149:9900 [wandb_init.py:init():552] wandb.init called with sweep_config: {'ActList': 'linear', 'OptList': 'adam', 'Window': 2}
+config: {}
+2023-03-28 17:48:01,151 INFO    Thread-149:9900 [wandb_init.py:init():602] starting backend
+2023-03-28 17:48:01,151 INFO    Thread-149:9900 [wandb_init.py:init():606] setting up manager
+2023-03-28 17:48:01,151 INFO    Thread-149:9900 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-03-28 17:48:01,167 INFO    Thread-149:9900 [wandb_init.py:init():613] backend started and connected
+2023-03-28 17:48:01,182 INFO    Thread-149:9900 [wandb_run.py:_config_callback():1251] config_cb None None {'ActList': 'linear', 'OptList': 'adam', 'Window': 2}
+2023-03-28 17:48:01,182 INFO    Thread-149:9900 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2023-03-28 17:48:01,182 INFO    Thread-149:9900 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-03-28 17:48:01,182 INFO    Thread-149:9900 [wandb_init.py:init():701] updated telemetry
+2023-03-28 17:48:01,245 INFO    Thread-149:9900 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-03-28 17:48:01,901 INFO    Thread-149:9900 [wandb_run.py:_on_init():2133] communicating current version
+2023-03-28 17:48:01,995 INFO    Thread-149:9900 [wandb_run.py:_on_init():2142] got version response 
+2023-03-28 17:48:01,995 INFO    Thread-149:9900 [wandb_init.py:init():789] starting run threads in backend
+2023-03-28 17:48:22,315 INFO    Thread-149:9900 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-28 17:48:22,318 INFO    Thread-149:9900 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-28 17:48:22,318 INFO    Thread-149:9900 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-28 17:48:22,318 INFO    Thread-149:9900 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-28 17:48:22,319 INFO    Thread-149:9900 [wandb_init.py:init():831] run started, returning control to user process
+2023-03-28 17:49:14,623 INFO    Thread-149:9900 [wandb_run.py:_finish():1854] finishing run embarca-ai/TEDA_Regressor/wul71t0e
+2023-03-28 17:49:14,623 INFO    Thread-149:9900 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-03-28 17:49:14,623 INFO    Thread-149:9900 [wandb_run.py:_restore():2066] restore
+2023-03-28 17:49:14,623 INFO    Thread-149:9900 [wandb_run.py:_restore():2072] restore done
+2023-03-28 17:49:20,861 INFO    Thread-149:9900 [wandb_run.py:_footer_history_summary_info():3422] rendering history
+2023-03-28 17:49:20,861 INFO    Thread-149:9900 [wandb_run.py:_footer_history_summary_info():3454] rendering summary
+2023-03-28 17:49:20,876 INFO    Thread-149:9900 [wandb_run.py:_footer_sync_info():3380] logging synced files
+2023-03-28 17:49:40,335 INFO    Thread-158:9900 [wandb_setup.py:_flush():76] Configure stats pid to 9900
+2023-03-28 17:49:40,335 INFO    Thread-158:9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\.config\wandb\settings
+2023-03-28 17:49:40,335 INFO    Thread-158:9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\settings
+2023-03-28 17:49:40,335 INFO    Thread-158:9900 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'TEDA_Regressor', 'entity': 'embarca-ai', 'root_dir': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor', 'run_id': '67vtvazv', 'sweep_param_path': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor\\wandb\\sweep-mq0bccda\\config-67vtvazv.yaml', 'sweep_id': 'mq0bccda'}
+2023-03-28 17:49:40,335 INFO    Thread-158:9900 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-03-28 17:49:40,335 INFO    Thread-158:9900 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-03-28 17:49:40,335 INFO    Thread-158:9900 [wandb_init.py:_log_setup():506] Logging user logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_174940-67vtvazv\logs\debug.log
+2023-03-28 17:49:40,335 INFO    Thread-158:9900 [wandb_init.py:_log_setup():507] Logging internal logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_174940-67vtvazv\logs\debug-internal.log
+2023-03-28 17:49:40,335 INFO    Thread-158:9900 [wandb_init.py:init():546] calling init triggers
+2023-03-28 17:49:40,335 INFO    Thread-158:9900 [wandb_init.py:init():552] wandb.init called with sweep_config: {'ActList': 'linear', 'OptList': 'adam', 'Window': 3}
+config: {}
+2023-03-28 17:49:40,335 INFO    Thread-158:9900 [wandb_init.py:init():602] starting backend
+2023-03-28 17:49:40,335 INFO    Thread-158:9900 [wandb_init.py:init():606] setting up manager
+2023-03-28 17:49:40,335 INFO    Thread-158:9900 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-03-28 17:49:40,351 INFO    Thread-158:9900 [wandb_init.py:init():613] backend started and connected
+2023-03-28 17:49:40,366 INFO    Thread-158:9900 [wandb_run.py:_config_callback():1251] config_cb None None {'ActList': 'linear', 'OptList': 'adam', 'Window': 3}
+2023-03-28 17:49:40,382 INFO    Thread-158:9900 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2023-03-28 17:49:40,382 INFO    Thread-158:9900 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-03-28 17:49:40,382 INFO    Thread-158:9900 [wandb_init.py:init():701] updated telemetry
+2023-03-28 17:49:40,507 INFO    Thread-158:9900 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-03-28 17:49:41,194 INFO    Thread-158:9900 [wandb_run.py:_on_init():2133] communicating current version
+2023-03-28 17:49:41,304 INFO    Thread-158:9900 [wandb_run.py:_on_init():2142] got version response 
+2023-03-28 17:49:41,304 INFO    Thread-158:9900 [wandb_init.py:init():789] starting run threads in backend
+2023-03-28 17:50:00,640 INFO    Thread-158:9900 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-28 17:50:00,640 INFO    Thread-158:9900 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-28 17:50:00,641 INFO    Thread-158:9900 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-28 17:50:00,641 INFO    Thread-158:9900 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-28 17:50:00,643 INFO    Thread-158:9900 [wandb_init.py:init():831] run started, returning control to user process
+2023-03-28 17:50:57,800 INFO    Thread-158:9900 [wandb_run.py:_finish():1854] finishing run embarca-ai/TEDA_Regressor/67vtvazv
+2023-03-28 17:50:57,800 INFO    Thread-158:9900 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-03-28 17:50:57,800 INFO    Thread-158:9900 [wandb_run.py:_restore():2066] restore
+2023-03-28 17:50:57,801 INFO    Thread-158:9900 [wandb_run.py:_restore():2072] restore done
+2023-03-28 17:51:03,161 INFO    Thread-158:9900 [wandb_run.py:_footer_history_summary_info():3422] rendering history
+2023-03-28 17:51:03,161 INFO    Thread-158:9900 [wandb_run.py:_footer_history_summary_info():3454] rendering summary
+2023-03-28 17:51:03,178 INFO    Thread-158:9900 [wandb_run.py:_footer_sync_info():3380] logging synced files
+2023-03-28 17:51:10,345 INFO    Thread-167:9900 [wandb_setup.py:_flush():76] Configure stats pid to 9900
+2023-03-28 17:51:10,345 INFO    Thread-167:9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\.config\wandb\settings
+2023-03-28 17:51:10,345 INFO    Thread-167:9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\settings
+2023-03-28 17:51:10,345 INFO    Thread-167:9900 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'TEDA_Regressor', 'entity': 'embarca-ai', 'root_dir': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor', 'run_id': 'sdaf4grg', 'sweep_param_path': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor\\wandb\\sweep-mq0bccda\\config-sdaf4grg.yaml', 'sweep_id': 'mq0bccda'}
+2023-03-28 17:51:10,345 INFO    Thread-167:9900 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-03-28 17:51:10,345 INFO    Thread-167:9900 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-03-28 17:51:10,345 INFO    Thread-167:9900 [wandb_init.py:_log_setup():506] Logging user logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_175110-sdaf4grg\logs\debug.log
+2023-03-28 17:51:10,345 INFO    Thread-167:9900 [wandb_init.py:_log_setup():507] Logging internal logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_175110-sdaf4grg\logs\debug-internal.log
+2023-03-28 17:51:10,345 INFO    Thread-167:9900 [wandb_init.py:init():546] calling init triggers
+2023-03-28 17:51:10,345 INFO    Thread-167:9900 [wandb_init.py:init():552] wandb.init called with sweep_config: {'ActList': 'linear', 'OptList': 'adam', 'Window': 4}
+config: {}
+2023-03-28 17:51:10,345 INFO    Thread-167:9900 [wandb_init.py:init():602] starting backend
+2023-03-28 17:51:10,345 INFO    Thread-167:9900 [wandb_init.py:init():606] setting up manager
+2023-03-28 17:51:10,361 INFO    Thread-167:9900 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-03-28 17:51:10,361 INFO    Thread-167:9900 [wandb_init.py:init():613] backend started and connected
+2023-03-28 17:51:10,392 INFO    Thread-167:9900 [wandb_run.py:_config_callback():1251] config_cb None None {'ActList': 'linear', 'OptList': 'adam', 'Window': 4}
+2023-03-28 17:51:10,392 INFO    Thread-167:9900 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2023-03-28 17:51:10,392 INFO    Thread-167:9900 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-03-28 17:51:10,392 INFO    Thread-167:9900 [wandb_init.py:init():701] updated telemetry
+2023-03-28 17:51:10,454 INFO    Thread-167:9900 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-03-28 17:51:11,142 INFO    Thread-167:9900 [wandb_run.py:_on_init():2133] communicating current version
+2023-03-28 17:51:11,220 INFO    Thread-167:9900 [wandb_run.py:_on_init():2142] got version response 
+2023-03-28 17:51:11,220 INFO    Thread-167:9900 [wandb_init.py:init():789] starting run threads in backend
+2023-03-28 17:51:31,862 INFO    Thread-167:9900 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-28 17:51:31,863 INFO    Thread-167:9900 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-28 17:51:31,863 INFO    Thread-167:9900 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-28 17:51:31,863 INFO    Thread-167:9900 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-28 17:51:31,864 INFO    Thread-167:9900 [wandb_init.py:init():831] run started, returning control to user process
+2023-03-28 17:52:27,470 INFO    Thread-167:9900 [wandb_run.py:_finish():1854] finishing run embarca-ai/TEDA_Regressor/sdaf4grg
+2023-03-28 17:52:27,470 INFO    Thread-167:9900 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-03-28 17:52:27,470 INFO    Thread-167:9900 [wandb_run.py:_restore():2066] restore
+2023-03-28 17:52:27,470 INFO    Thread-167:9900 [wandb_run.py:_restore():2072] restore done
+2023-03-28 17:52:33,162 INFO    Thread-167:9900 [wandb_run.py:_footer_history_summary_info():3422] rendering history
+2023-03-28 17:52:33,162 INFO    Thread-167:9900 [wandb_run.py:_footer_history_summary_info():3454] rendering summary
+2023-03-28 17:52:33,180 INFO    Thread-167:9900 [wandb_run.py:_footer_sync_info():3380] logging synced files
+2023-03-28 17:52:39,697 INFO    Thread-176:9900 [wandb_setup.py:_flush():76] Configure stats pid to 9900
+2023-03-28 17:52:39,697 INFO    Thread-176:9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\.config\wandb\settings
+2023-03-28 17:52:39,697 INFO    Thread-176:9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\settings
+2023-03-28 17:52:39,697 INFO    Thread-176:9900 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'TEDA_Regressor', 'entity': 'embarca-ai', 'root_dir': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor', 'run_id': 'bmfa3ytu', 'sweep_param_path': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor\\wandb\\sweep-mq0bccda\\config-bmfa3ytu.yaml', 'sweep_id': 'mq0bccda'}
+2023-03-28 17:52:39,697 INFO    Thread-176:9900 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-03-28 17:52:39,697 INFO    Thread-176:9900 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-03-28 17:52:39,697 INFO    Thread-176:9900 [wandb_init.py:_log_setup():506] Logging user logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_175239-bmfa3ytu\logs\debug.log
+2023-03-28 17:52:39,697 INFO    Thread-176:9900 [wandb_init.py:_log_setup():507] Logging internal logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_175239-bmfa3ytu\logs\debug-internal.log
+2023-03-28 17:52:39,697 INFO    Thread-176:9900 [wandb_init.py:init():546] calling init triggers
+2023-03-28 17:52:39,697 INFO    Thread-176:9900 [wandb_init.py:init():552] wandb.init called with sweep_config: {'ActList': 'linear', 'OptList': 'adam', 'Window': 5}
+config: {}
+2023-03-28 17:52:39,697 INFO    Thread-176:9900 [wandb_init.py:init():602] starting backend
+2023-03-28 17:52:39,697 INFO    Thread-176:9900 [wandb_init.py:init():606] setting up manager
+2023-03-28 17:52:39,697 INFO    Thread-176:9900 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-03-28 17:52:39,713 INFO    Thread-176:9900 [wandb_init.py:init():613] backend started and connected
+2023-03-28 17:52:39,729 INFO    Thread-176:9900 [wandb_run.py:_config_callback():1251] config_cb None None {'ActList': 'linear', 'OptList': 'adam', 'Window': 5}
+2023-03-28 17:52:39,729 INFO    Thread-176:9900 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2023-03-28 17:52:39,729 INFO    Thread-176:9900 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-03-28 17:52:39,729 INFO    Thread-176:9900 [wandb_init.py:init():701] updated telemetry
+2023-03-28 17:52:39,791 INFO    Thread-176:9900 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-03-28 17:52:40,447 INFO    Thread-176:9900 [wandb_run.py:_on_init():2133] communicating current version
+2023-03-28 17:52:40,526 INFO    Thread-176:9900 [wandb_run.py:_on_init():2142] got version response 
+2023-03-28 17:52:40,526 INFO    Thread-176:9900 [wandb_init.py:init():789] starting run threads in backend
+2023-03-28 17:53:04,273 INFO    Thread-176:9900 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-28 17:53:04,274 INFO    Thread-176:9900 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-28 17:53:04,274 INFO    Thread-176:9900 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-28 17:53:04,274 INFO    Thread-176:9900 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-28 17:53:04,276 INFO    Thread-176:9900 [wandb_init.py:init():831] run started, returning control to user process
+2023-03-28 17:54:05,177 INFO    Thread-176:9900 [wandb_run.py:_finish():1854] finishing run embarca-ai/TEDA_Regressor/bmfa3ytu
+2023-03-28 17:54:05,177 INFO    Thread-176:9900 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-03-28 17:54:05,178 INFO    Thread-176:9900 [wandb_run.py:_restore():2066] restore
+2023-03-28 17:54:05,178 INFO    Thread-176:9900 [wandb_run.py:_restore():2072] restore done
+2023-03-28 17:54:11,763 INFO    Thread-176:9900 [wandb_run.py:_footer_history_summary_info():3422] rendering history
+2023-03-28 17:54:11,763 INFO    Thread-176:9900 [wandb_run.py:_footer_history_summary_info():3454] rendering summary
+2023-03-28 17:54:11,779 INFO    Thread-176:9900 [wandb_run.py:_footer_sync_info():3380] logging synced files
+2023-03-28 17:54:26,532 INFO    Thread-185:9900 [wandb_setup.py:_flush():76] Configure stats pid to 9900
+2023-03-28 17:54:26,532 INFO    Thread-185:9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\.config\wandb\settings
+2023-03-28 17:54:26,532 INFO    Thread-185:9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\settings
+2023-03-28 17:54:26,532 INFO    Thread-185:9900 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'TEDA_Regressor', 'entity': 'embarca-ai', 'root_dir': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor', 'run_id': 'jrfe63bn', 'sweep_param_path': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor\\wandb\\sweep-mq0bccda\\config-jrfe63bn.yaml', 'sweep_id': 'mq0bccda'}
+2023-03-28 17:54:26,532 INFO    Thread-185:9900 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-03-28 17:54:26,532 INFO    Thread-185:9900 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-03-28 17:54:26,532 INFO    Thread-185:9900 [wandb_init.py:_log_setup():506] Logging user logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_175426-jrfe63bn\logs\debug.log
+2023-03-28 17:54:26,532 INFO    Thread-185:9900 [wandb_init.py:_log_setup():507] Logging internal logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_175426-jrfe63bn\logs\debug-internal.log
+2023-03-28 17:54:26,532 INFO    Thread-185:9900 [wandb_init.py:init():546] calling init triggers
+2023-03-28 17:54:26,532 INFO    Thread-185:9900 [wandb_init.py:init():552] wandb.init called with sweep_config: {'ActList': 'linear', 'OptList': 'adam', 'Window': 6}
+config: {}
+2023-03-28 17:54:26,532 INFO    Thread-185:9900 [wandb_init.py:init():602] starting backend
+2023-03-28 17:54:26,532 INFO    Thread-185:9900 [wandb_init.py:init():606] setting up manager
+2023-03-28 17:54:26,532 INFO    Thread-185:9900 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-03-28 17:54:26,547 INFO    Thread-185:9900 [wandb_init.py:init():613] backend started and connected
+2023-03-28 17:54:26,563 INFO    Thread-185:9900 [wandb_run.py:_config_callback():1251] config_cb None None {'ActList': 'linear', 'OptList': 'adam', 'Window': 6}
+2023-03-28 17:54:26,610 INFO    Thread-185:9900 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2023-03-28 17:54:26,610 INFO    Thread-185:9900 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-03-28 17:54:26,610 INFO    Thread-185:9900 [wandb_init.py:init():701] updated telemetry
+2023-03-28 17:54:26,704 INFO    Thread-185:9900 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-03-28 17:54:27,393 INFO    Thread-185:9900 [wandb_run.py:_on_init():2133] communicating current version
+2023-03-28 17:54:27,487 INFO    Thread-185:9900 [wandb_run.py:_on_init():2142] got version response 
+2023-03-28 17:54:27,487 INFO    Thread-185:9900 [wandb_init.py:init():789] starting run threads in backend
+2023-03-28 17:54:46,497 INFO    Thread-185:9900 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-28 17:54:46,497 INFO    Thread-185:9900 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-28 17:54:46,497 INFO    Thread-185:9900 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-28 17:54:46,498 INFO    Thread-185:9900 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-28 17:54:46,498 INFO    Thread-185:9900 [wandb_init.py:init():831] run started, returning control to user process
+2023-03-28 17:55:45,934 INFO    Thread-185:9900 [wandb_run.py:_finish():1854] finishing run embarca-ai/TEDA_Regressor/jrfe63bn
+2023-03-28 17:55:45,934 INFO    Thread-185:9900 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-03-28 17:55:45,934 INFO    Thread-185:9900 [wandb_run.py:_restore():2066] restore
+2023-03-28 17:55:45,934 INFO    Thread-185:9900 [wandb_run.py:_restore():2072] restore done
+2023-03-28 17:55:51,605 INFO    Thread-185:9900 [wandb_run.py:_footer_history_summary_info():3422] rendering history
+2023-03-28 17:55:51,605 INFO    Thread-185:9900 [wandb_run.py:_footer_history_summary_info():3454] rendering summary
+2023-03-28 17:55:51,624 INFO    Thread-185:9900 [wandb_run.py:_footer_sync_info():3380] logging synced files
+2023-03-28 17:55:57,403 INFO    Thread-194:9900 [wandb_setup.py:_flush():76] Configure stats pid to 9900
+2023-03-28 17:55:57,403 INFO    Thread-194:9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\.config\wandb\settings
+2023-03-28 17:55:57,403 INFO    Thread-194:9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\settings
+2023-03-28 17:55:57,403 INFO    Thread-194:9900 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'TEDA_Regressor', 'entity': 'embarca-ai', 'root_dir': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor', 'run_id': '9rzji6da', 'sweep_param_path': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor\\wandb\\sweep-mq0bccda\\config-9rzji6da.yaml', 'sweep_id': 'mq0bccda'}
+2023-03-28 17:55:57,403 INFO    Thread-194:9900 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-03-28 17:55:57,403 INFO    Thread-194:9900 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-03-28 17:55:57,403 INFO    Thread-194:9900 [wandb_init.py:_log_setup():506] Logging user logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_175557-9rzji6da\logs\debug.log
+2023-03-28 17:55:57,403 INFO    Thread-194:9900 [wandb_init.py:_log_setup():507] Logging internal logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_175557-9rzji6da\logs\debug-internal.log
+2023-03-28 17:55:57,403 INFO    Thread-194:9900 [wandb_init.py:init():546] calling init triggers
+2023-03-28 17:55:57,403 INFO    Thread-194:9900 [wandb_init.py:init():552] wandb.init called with sweep_config: {'ActList': 'linear', 'OptList': 'sgd', 'Window': 2}
+config: {}
+2023-03-28 17:55:57,403 INFO    Thread-194:9900 [wandb_init.py:init():602] starting backend
+2023-03-28 17:55:57,403 INFO    Thread-194:9900 [wandb_init.py:init():606] setting up manager
+2023-03-28 17:55:57,590 INFO    Thread-194:9900 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-03-28 17:55:57,606 INFO    Thread-194:9900 [wandb_init.py:init():613] backend started and connected
+2023-03-28 17:55:57,621 INFO    Thread-194:9900 [wandb_run.py:_config_callback():1251] config_cb None None {'ActList': 'linear', 'OptList': 'sgd', 'Window': 2}
+2023-03-28 17:55:57,637 INFO    Thread-194:9900 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2023-03-28 17:55:57,637 INFO    Thread-194:9900 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-03-28 17:55:57,637 INFO    Thread-194:9900 [wandb_init.py:init():701] updated telemetry
+2023-03-28 17:55:57,699 INFO    Thread-194:9900 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-03-28 17:55:58,387 INFO    Thread-194:9900 [wandb_run.py:_on_init():2133] communicating current version
+2023-03-28 17:55:58,465 INFO    Thread-194:9900 [wandb_run.py:_on_init():2142] got version response 
+2023-03-28 17:55:58,465 INFO    Thread-194:9900 [wandb_init.py:init():789] starting run threads in backend
+2023-03-28 17:56:17,094 INFO    Thread-194:9900 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-28 17:56:17,094 INFO    Thread-194:9900 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-28 17:56:17,094 INFO    Thread-194:9900 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-28 17:56:17,094 INFO    Thread-194:9900 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-28 17:56:17,094 INFO    Thread-194:9900 [wandb_init.py:init():831] run started, returning control to user process
+2023-03-28 17:57:07,547 INFO    Thread-194:9900 [wandb_run.py:_finish():1854] finishing run embarca-ai/TEDA_Regressor/9rzji6da
+2023-03-28 17:57:07,547 INFO    Thread-194:9900 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-03-28 17:57:07,547 INFO    Thread-194:9900 [wandb_run.py:_restore():2066] restore
+2023-03-28 17:57:07,547 INFO    Thread-194:9900 [wandb_run.py:_restore():2072] restore done
+2023-03-28 17:57:12,974 INFO    Thread-194:9900 [wandb_run.py:_footer_history_summary_info():3422] rendering history
+2023-03-28 17:57:12,974 INFO    Thread-194:9900 [wandb_run.py:_footer_history_summary_info():3454] rendering summary
+2023-03-28 17:57:12,983 INFO    Thread-194:9900 [wandb_run.py:_footer_sync_info():3380] logging synced files
+2023-03-28 17:57:18,158 INFO    Thread-202:9900 [wandb_setup.py:_flush():76] Configure stats pid to 9900
+2023-03-28 17:57:18,158 INFO    Thread-202:9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\.config\wandb\settings
+2023-03-28 17:57:18,158 INFO    Thread-202:9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\settings
+2023-03-28 17:57:18,158 INFO    Thread-202:9900 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'TEDA_Regressor', 'entity': 'embarca-ai', 'root_dir': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor', 'run_id': '8pdqg800', 'sweep_param_path': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor\\wandb\\sweep-mq0bccda\\config-8pdqg800.yaml', 'sweep_id': 'mq0bccda'}
+2023-03-28 17:57:18,158 INFO    Thread-202:9900 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-03-28 17:57:18,158 INFO    Thread-202:9900 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-03-28 17:57:18,158 INFO    Thread-202:9900 [wandb_init.py:_log_setup():506] Logging user logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_175718-8pdqg800\logs\debug.log
+2023-03-28 17:57:18,158 INFO    Thread-202:9900 [wandb_init.py:_log_setup():507] Logging internal logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_175718-8pdqg800\logs\debug-internal.log
+2023-03-28 17:57:18,158 INFO    Thread-202:9900 [wandb_init.py:init():546] calling init triggers
+2023-03-28 17:57:18,158 INFO    Thread-202:9900 [wandb_init.py:init():552] wandb.init called with sweep_config: {'ActList': 'linear', 'OptList': 'sgd', 'Window': 3}
+config: {}
+2023-03-28 17:57:18,158 INFO    Thread-202:9900 [wandb_init.py:init():602] starting backend
+2023-03-28 17:57:18,158 INFO    Thread-202:9900 [wandb_init.py:init():606] setting up manager
+2023-03-28 17:57:18,174 INFO    Thread-202:9900 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-03-28 17:57:18,174 INFO    Thread-202:9900 [wandb_init.py:init():613] backend started and connected
+2023-03-28 17:57:18,205 INFO    Thread-202:9900 [wandb_run.py:_config_callback():1251] config_cb None None {'ActList': 'linear', 'OptList': 'sgd', 'Window': 3}
+2023-03-28 17:57:18,205 INFO    Thread-202:9900 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2023-03-28 17:57:18,205 INFO    Thread-202:9900 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-03-28 17:57:18,205 INFO    Thread-202:9900 [wandb_init.py:init():701] updated telemetry
+2023-03-28 17:57:18,268 INFO    Thread-202:9900 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-03-28 17:57:18,924 INFO    Thread-202:9900 [wandb_run.py:_on_init():2133] communicating current version
+2023-03-28 17:57:19,002 INFO    Thread-202:9900 [wandb_run.py:_on_init():2142] got version response 
+2023-03-28 17:57:19,002 INFO    Thread-202:9900 [wandb_init.py:init():789] starting run threads in backend
+2023-03-28 17:57:38,372 INFO    Thread-202:9900 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-28 17:57:38,372 INFO    Thread-202:9900 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-28 17:57:38,372 INFO    Thread-202:9900 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-28 17:57:38,373 INFO    Thread-202:9900 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-28 17:57:38,374 INFO    Thread-202:9900 [wandb_init.py:init():831] run started, returning control to user process
+2023-03-28 17:58:27,710 INFO    Thread-202:9900 [wandb_run.py:_finish():1854] finishing run embarca-ai/TEDA_Regressor/8pdqg800
+2023-03-28 17:58:27,710 INFO    Thread-202:9900 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-03-28 17:58:27,710 INFO    Thread-202:9900 [wandb_run.py:_restore():2066] restore
+2023-03-28 17:58:27,710 INFO    Thread-202:9900 [wandb_run.py:_restore():2072] restore done
+2023-03-28 17:58:33,488 INFO    Thread-202:9900 [wandb_run.py:_footer_history_summary_info():3422] rendering history
+2023-03-28 17:58:33,488 INFO    Thread-202:9900 [wandb_run.py:_footer_history_summary_info():3454] rendering summary
+2023-03-28 17:58:33,505 INFO    Thread-202:9900 [wandb_run.py:_footer_sync_info():3380] logging synced files
+2023-03-28 17:58:46,870 INFO    Thread-210:9900 [wandb_setup.py:_flush():76] Configure stats pid to 9900
+2023-03-28 17:58:46,870 INFO    Thread-210:9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\.config\wandb\settings
+2023-03-28 17:58:46,870 INFO    Thread-210:9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\settings
+2023-03-28 17:58:46,870 INFO    Thread-210:9900 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'TEDA_Regressor', 'entity': 'embarca-ai', 'root_dir': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor', 'run_id': '0ew0lqzf', 'sweep_param_path': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor\\wandb\\sweep-mq0bccda\\config-0ew0lqzf.yaml', 'sweep_id': 'mq0bccda'}
+2023-03-28 17:58:46,870 INFO    Thread-210:9900 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-03-28 17:58:46,870 INFO    Thread-210:9900 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-03-28 17:58:46,870 INFO    Thread-210:9900 [wandb_init.py:_log_setup():506] Logging user logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_175846-0ew0lqzf\logs\debug.log
+2023-03-28 17:58:46,870 INFO    Thread-210:9900 [wandb_init.py:_log_setup():507] Logging internal logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_175846-0ew0lqzf\logs\debug-internal.log
+2023-03-28 17:58:46,870 INFO    Thread-210:9900 [wandb_init.py:init():546] calling init triggers
+2023-03-28 17:58:46,870 INFO    Thread-210:9900 [wandb_init.py:init():552] wandb.init called with sweep_config: {'ActList': 'linear', 'OptList': 'sgd', 'Window': 4}
+config: {}
+2023-03-28 17:58:46,870 INFO    Thread-210:9900 [wandb_init.py:init():602] starting backend
+2023-03-28 17:58:46,870 INFO    Thread-210:9900 [wandb_init.py:init():606] setting up manager
+2023-03-28 17:58:46,870 INFO    Thread-210:9900 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-03-28 17:58:46,886 INFO    Thread-210:9900 [wandb_init.py:init():613] backend started and connected
+2023-03-28 17:58:46,917 INFO    Thread-210:9900 [wandb_run.py:_config_callback():1251] config_cb None None {'ActList': 'linear', 'OptList': 'sgd', 'Window': 4}
+2023-03-28 17:58:46,917 INFO    Thread-210:9900 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2023-03-28 17:58:46,917 INFO    Thread-210:9900 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-03-28 17:58:46,917 INFO    Thread-210:9900 [wandb_init.py:init():701] updated telemetry
+2023-03-28 17:58:46,980 INFO    Thread-210:9900 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-03-28 17:58:47,667 INFO    Thread-210:9900 [wandb_run.py:_on_init():2133] communicating current version
+2023-03-28 17:58:47,761 INFO    Thread-210:9900 [wandb_run.py:_on_init():2142] got version response 
+2023-03-28 17:58:47,761 INFO    Thread-210:9900 [wandb_init.py:init():789] starting run threads in backend
+2023-03-28 17:59:04,990 INFO    Thread-210:9900 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-28 17:59:04,990 INFO    Thread-210:9900 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-28 17:59:04,990 INFO    Thread-210:9900 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-28 17:59:04,990 INFO    Thread-210:9900 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-28 17:59:04,991 INFO    Thread-210:9900 [wandb_init.py:init():831] run started, returning control to user process
+2023-03-28 17:59:57,298 INFO    Thread-210:9900 [wandb_run.py:_finish():1854] finishing run embarca-ai/TEDA_Regressor/0ew0lqzf
+2023-03-28 17:59:57,298 INFO    Thread-210:9900 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-03-28 17:59:57,298 INFO    Thread-210:9900 [wandb_run.py:_restore():2066] restore
+2023-03-28 17:59:57,298 INFO    Thread-210:9900 [wandb_run.py:_restore():2072] restore done
+2023-03-28 18:00:02,358 INFO    Thread-210:9900 [wandb_run.py:_footer_history_summary_info():3422] rendering history
+2023-03-28 18:00:02,358 INFO    Thread-210:9900 [wandb_run.py:_footer_history_summary_info():3454] rendering summary
+2023-03-28 18:00:02,370 INFO    Thread-210:9900 [wandb_run.py:_footer_sync_info():3380] logging synced files
+2023-03-28 18:00:09,195 INFO    Thread-219:9900 [wandb_setup.py:_flush():76] Configure stats pid to 9900
+2023-03-28 18:00:09,195 INFO    Thread-219:9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\.config\wandb\settings
+2023-03-28 18:00:09,195 INFO    Thread-219:9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\settings
+2023-03-28 18:00:09,195 INFO    Thread-219:9900 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'TEDA_Regressor', 'entity': 'embarca-ai', 'root_dir': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor', 'run_id': 'o9qkei3y', 'sweep_param_path': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor\\wandb\\sweep-mq0bccda\\config-o9qkei3y.yaml', 'sweep_id': 'mq0bccda'}
+2023-03-28 18:00:09,195 INFO    Thread-219:9900 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-03-28 18:00:09,195 INFO    Thread-219:9900 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-03-28 18:00:09,195 INFO    Thread-219:9900 [wandb_init.py:_log_setup():506] Logging user logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_180009-o9qkei3y\logs\debug.log
+2023-03-28 18:00:09,195 INFO    Thread-219:9900 [wandb_init.py:_log_setup():507] Logging internal logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_180009-o9qkei3y\logs\debug-internal.log
+2023-03-28 18:00:09,195 INFO    Thread-219:9900 [wandb_init.py:init():546] calling init triggers
+2023-03-28 18:00:09,195 INFO    Thread-219:9900 [wandb_init.py:init():552] wandb.init called with sweep_config: {'ActList': 'linear', 'OptList': 'sgd', 'Window': 5}
+config: {}
+2023-03-28 18:00:09,195 INFO    Thread-219:9900 [wandb_init.py:init():602] starting backend
+2023-03-28 18:00:09,195 INFO    Thread-219:9900 [wandb_init.py:init():606] setting up manager
+2023-03-28 18:00:09,211 INFO    Thread-219:9900 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-03-28 18:00:09,211 INFO    Thread-219:9900 [wandb_init.py:init():613] backend started and connected
+2023-03-28 18:00:09,242 INFO    Thread-219:9900 [wandb_run.py:_config_callback():1251] config_cb None None {'ActList': 'linear', 'OptList': 'sgd', 'Window': 5}
+2023-03-28 18:00:09,242 INFO    Thread-219:9900 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2023-03-28 18:00:09,242 INFO    Thread-219:9900 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-03-28 18:00:09,242 INFO    Thread-219:9900 [wandb_init.py:init():701] updated telemetry
+2023-03-28 18:00:09,320 INFO    Thread-219:9900 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-03-28 18:00:10,039 INFO    Thread-219:9900 [wandb_run.py:_on_init():2133] communicating current version
+2023-03-28 18:00:10,149 INFO    Thread-219:9900 [wandb_run.py:_on_init():2142] got version response 
+2023-03-28 18:00:10,149 INFO    Thread-219:9900 [wandb_init.py:init():789] starting run threads in backend
+2023-03-28 18:00:32,471 INFO    Thread-219:9900 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-28 18:00:32,471 INFO    Thread-219:9900 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-28 18:00:32,471 INFO    Thread-219:9900 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-28 18:00:32,471 INFO    Thread-219:9900 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-28 18:00:32,471 INFO    Thread-219:9900 [wandb_init.py:init():831] run started, returning control to user process
+2023-03-28 18:01:25,321 INFO    Thread-219:9900 [wandb_run.py:_finish():1854] finishing run embarca-ai/TEDA_Regressor/o9qkei3y
+2023-03-28 18:01:25,321 INFO    Thread-219:9900 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-03-28 18:01:25,321 INFO    Thread-219:9900 [wandb_run.py:_restore():2066] restore
+2023-03-28 18:01:25,321 INFO    Thread-219:9900 [wandb_run.py:_restore():2072] restore done
+2023-03-28 18:01:31,148 INFO    Thread-219:9900 [wandb_run.py:_footer_history_summary_info():3422] rendering history
+2023-03-28 18:01:31,148 INFO    Thread-219:9900 [wandb_run.py:_footer_history_summary_info():3454] rendering summary
+2023-03-28 18:01:31,165 INFO    Thread-219:9900 [wandb_run.py:_footer_sync_info():3380] logging synced files
+2023-03-28 18:01:39,268 INFO    Thread-228:9900 [wandb_setup.py:_flush():76] Configure stats pid to 9900
+2023-03-28 18:01:39,268 INFO    Thread-228:9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\.config\wandb\settings
+2023-03-28 18:01:39,268 INFO    Thread-228:9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\settings
+2023-03-28 18:01:39,268 INFO    Thread-228:9900 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'TEDA_Regressor', 'entity': 'embarca-ai', 'root_dir': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor', 'run_id': 'lyrv14xk', 'sweep_param_path': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor\\wandb\\sweep-mq0bccda\\config-lyrv14xk.yaml', 'sweep_id': 'mq0bccda'}
+2023-03-28 18:01:39,268 INFO    Thread-228:9900 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-03-28 18:01:39,268 INFO    Thread-228:9900 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-03-28 18:01:39,268 INFO    Thread-228:9900 [wandb_init.py:_log_setup():506] Logging user logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_180139-lyrv14xk\logs\debug.log
+2023-03-28 18:01:39,268 INFO    Thread-228:9900 [wandb_init.py:_log_setup():507] Logging internal logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_180139-lyrv14xk\logs\debug-internal.log
+2023-03-28 18:01:39,268 INFO    Thread-228:9900 [wandb_init.py:init():546] calling init triggers
+2023-03-28 18:01:39,268 INFO    Thread-228:9900 [wandb_init.py:init():552] wandb.init called with sweep_config: {'ActList': 'linear', 'OptList': 'sgd', 'Window': 6}
+config: {}
+2023-03-28 18:01:39,268 INFO    Thread-228:9900 [wandb_init.py:init():602] starting backend
+2023-03-28 18:01:39,268 INFO    Thread-228:9900 [wandb_init.py:init():606] setting up manager
+2023-03-28 18:01:39,284 INFO    Thread-228:9900 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-03-28 18:01:39,299 INFO    Thread-228:9900 [wandb_init.py:init():613] backend started and connected
+2023-03-28 18:01:39,315 INFO    Thread-228:9900 [wandb_run.py:_config_callback():1251] config_cb None None {'ActList': 'linear', 'OptList': 'sgd', 'Window': 6}
+2023-03-28 18:01:39,315 INFO    Thread-228:9900 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2023-03-28 18:01:39,315 INFO    Thread-228:9900 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-03-28 18:01:39,315 INFO    Thread-228:9900 [wandb_init.py:init():701] updated telemetry
+2023-03-28 18:01:39,378 INFO    Thread-228:9900 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-03-28 18:01:40,034 INFO    Thread-228:9900 [wandb_run.py:_on_init():2133] communicating current version
+2023-03-28 18:01:40,112 INFO    Thread-228:9900 [wandb_run.py:_on_init():2142] got version response 
+2023-03-28 18:01:40,112 INFO    Thread-228:9900 [wandb_init.py:init():789] starting run threads in backend
+2023-03-28 18:01:59,870 INFO    Thread-228:9900 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-28 18:01:59,870 INFO    Thread-228:9900 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-28 18:01:59,870 INFO    Thread-228:9900 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-28 18:01:59,870 INFO    Thread-228:9900 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-28 18:01:59,870 INFO    Thread-228:9900 [wandb_init.py:init():831] run started, returning control to user process
+2023-03-28 18:02:53,810 INFO    Thread-228:9900 [wandb_run.py:_finish():1854] finishing run embarca-ai/TEDA_Regressor/lyrv14xk
+2023-03-28 18:02:53,810 INFO    Thread-228:9900 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-03-28 18:02:53,810 INFO    Thread-228:9900 [wandb_run.py:_restore():2066] restore
+2023-03-28 18:02:53,810 INFO    Thread-228:9900 [wandb_run.py:_restore():2072] restore done
+2023-03-28 18:03:00,107 INFO    Thread-228:9900 [wandb_run.py:_footer_history_summary_info():3422] rendering history
+2023-03-28 18:03:00,107 INFO    Thread-228:9900 [wandb_run.py:_footer_history_summary_info():3454] rendering summary
+2023-03-28 18:03:00,131 INFO    Thread-228:9900 [wandb_run.py:_footer_sync_info():3380] logging synced files
+2023-03-28 18:03:13,268 INFO    Thread-237:9900 [wandb_setup.py:_flush():76] Configure stats pid to 9900
+2023-03-28 18:03:13,268 INFO    Thread-237:9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\.config\wandb\settings
+2023-03-28 18:03:13,268 INFO    Thread-237:9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\settings
+2023-03-28 18:03:13,268 INFO    Thread-237:9900 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'TEDA_Regressor', 'entity': 'embarca-ai', 'root_dir': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor', 'run_id': 'eslsp1dg', 'sweep_param_path': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor\\wandb\\sweep-mq0bccda\\config-eslsp1dg.yaml', 'sweep_id': 'mq0bccda'}
+2023-03-28 18:03:13,268 INFO    Thread-237:9900 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-03-28 18:03:13,268 INFO    Thread-237:9900 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-03-28 18:03:13,268 INFO    Thread-237:9900 [wandb_init.py:_log_setup():506] Logging user logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_180313-eslsp1dg\logs\debug.log
+2023-03-28 18:03:13,268 INFO    Thread-237:9900 [wandb_init.py:_log_setup():507] Logging internal logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_180313-eslsp1dg\logs\debug-internal.log
+2023-03-28 18:03:13,268 INFO    Thread-237:9900 [wandb_init.py:init():546] calling init triggers
+2023-03-28 18:03:13,268 INFO    Thread-237:9900 [wandb_init.py:init():552] wandb.init called with sweep_config: {'ActList': 'linear', 'OptList': 'rmsprop', 'Window': 2}
+config: {}
+2023-03-28 18:03:13,268 INFO    Thread-237:9900 [wandb_init.py:init():602] starting backend
+2023-03-28 18:03:13,268 INFO    Thread-237:9900 [wandb_init.py:init():606] setting up manager
+2023-03-28 18:03:13,268 INFO    Thread-237:9900 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-03-28 18:03:13,283 INFO    Thread-237:9900 [wandb_init.py:init():613] backend started and connected
+2023-03-28 18:03:13,315 INFO    Thread-237:9900 [wandb_run.py:_config_callback():1251] config_cb None None {'ActList': 'linear', 'OptList': 'rmsprop', 'Window': 2}
+2023-03-28 18:03:13,315 INFO    Thread-237:9900 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2023-03-28 18:03:13,315 INFO    Thread-237:9900 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-03-28 18:03:13,315 INFO    Thread-237:9900 [wandb_init.py:init():701] updated telemetry
+2023-03-28 18:03:13,361 INFO    Thread-237:9900 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-03-28 18:03:14,033 INFO    Thread-237:9900 [wandb_run.py:_on_init():2133] communicating current version
+2023-03-28 18:03:14,111 INFO    Thread-237:9900 [wandb_run.py:_on_init():2142] got version response 
+2023-03-28 18:03:14,111 INFO    Thread-237:9900 [wandb_init.py:init():789] starting run threads in backend
+2023-03-28 18:03:33,289 INFO    Thread-237:9900 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-28 18:03:33,289 INFO    Thread-237:9900 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-28 18:03:33,290 INFO    Thread-237:9900 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-28 18:03:33,290 INFO    Thread-237:9900 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-28 18:03:33,291 INFO    Thread-237:9900 [wandb_init.py:init():831] run started, returning control to user process
+2023-03-28 18:04:24,310 INFO    Thread-237:9900 [wandb_run.py:_finish():1854] finishing run embarca-ai/TEDA_Regressor/eslsp1dg
+2023-03-28 18:04:24,310 INFO    Thread-237:9900 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-03-28 18:04:24,310 INFO    Thread-237:9900 [wandb_run.py:_restore():2066] restore
+2023-03-28 18:04:24,310 INFO    Thread-237:9900 [wandb_run.py:_restore():2072] restore done
+2023-03-28 18:04:30,018 INFO    Thread-237:9900 [wandb_run.py:_footer_history_summary_info():3422] rendering history
+2023-03-28 18:04:30,018 INFO    Thread-237:9900 [wandb_run.py:_footer_history_summary_info():3454] rendering summary
+2023-03-28 18:04:30,035 INFO    Thread-237:9900 [wandb_run.py:_footer_sync_info():3380] logging synced files
+2023-03-28 18:04:35,127 INFO    Thread-245:9900 [wandb_setup.py:_flush():76] Configure stats pid to 9900
+2023-03-28 18:04:35,127 INFO    Thread-245:9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\.config\wandb\settings
+2023-03-28 18:04:35,127 INFO    Thread-245:9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\settings
+2023-03-28 18:04:35,127 INFO    Thread-245:9900 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'TEDA_Regressor', 'entity': 'embarca-ai', 'root_dir': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor', 'run_id': '4d3yvhvp', 'sweep_param_path': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor\\wandb\\sweep-mq0bccda\\config-4d3yvhvp.yaml', 'sweep_id': 'mq0bccda'}
+2023-03-28 18:04:35,127 INFO    Thread-245:9900 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-03-28 18:04:35,127 INFO    Thread-245:9900 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-03-28 18:04:35,127 INFO    Thread-245:9900 [wandb_init.py:_log_setup():506] Logging user logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_180435-4d3yvhvp\logs\debug.log
+2023-03-28 18:04:35,127 INFO    Thread-245:9900 [wandb_init.py:_log_setup():507] Logging internal logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_180435-4d3yvhvp\logs\debug-internal.log
+2023-03-28 18:04:35,127 INFO    Thread-245:9900 [wandb_init.py:init():546] calling init triggers
+2023-03-28 18:04:35,127 INFO    Thread-245:9900 [wandb_init.py:init():552] wandb.init called with sweep_config: {'ActList': 'linear', 'OptList': 'rmsprop', 'Window': 3}
+config: {}
+2023-03-28 18:04:35,127 INFO    Thread-245:9900 [wandb_init.py:init():602] starting backend
+2023-03-28 18:04:35,127 INFO    Thread-245:9900 [wandb_init.py:init():606] setting up manager
+2023-03-28 18:04:35,143 INFO    Thread-245:9900 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-03-28 18:04:35,143 INFO    Thread-245:9900 [wandb_init.py:init():613] backend started and connected
+2023-03-28 18:04:35,174 INFO    Thread-245:9900 [wandb_run.py:_config_callback():1251] config_cb None None {'ActList': 'linear', 'OptList': 'rmsprop', 'Window': 3}
+2023-03-28 18:04:35,174 INFO    Thread-245:9900 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2023-03-28 18:04:35,174 INFO    Thread-245:9900 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-03-28 18:04:35,174 INFO    Thread-245:9900 [wandb_init.py:init():701] updated telemetry
+2023-03-28 18:04:35,236 INFO    Thread-245:9900 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-03-28 18:04:35,910 INFO    Thread-245:9900 [wandb_run.py:_on_init():2133] communicating current version
+2023-03-28 18:04:35,972 INFO    Thread-245:9900 [wandb_run.py:_on_init():2142] got version response 
+2023-03-28 18:04:35,972 INFO    Thread-245:9900 [wandb_init.py:init():789] starting run threads in backend
+2023-03-28 18:04:54,126 INFO    Thread-245:9900 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-28 18:04:54,126 INFO    Thread-245:9900 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-28 18:04:54,126 INFO    Thread-245:9900 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-28 18:04:54,126 INFO    Thread-245:9900 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-28 18:04:54,126 INFO    Thread-245:9900 [wandb_init.py:init():831] run started, returning control to user process
+2023-03-28 18:05:52,354 INFO    Thread-245:9900 [wandb_run.py:_finish():1854] finishing run embarca-ai/TEDA_Regressor/4d3yvhvp
+2023-03-28 18:05:52,354 INFO    Thread-245:9900 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-03-28 18:05:52,354 INFO    Thread-245:9900 [wandb_run.py:_restore():2066] restore
+2023-03-28 18:05:52,354 INFO    Thread-245:9900 [wandb_run.py:_restore():2072] restore done
+2023-03-28 18:05:57,915 INFO    Thread-245:9900 [wandb_run.py:_footer_history_summary_info():3422] rendering history
+2023-03-28 18:05:57,915 INFO    Thread-245:9900 [wandb_run.py:_footer_history_summary_info():3454] rendering summary
+2023-03-28 18:05:57,927 INFO    Thread-245:9900 [wandb_run.py:_footer_sync_info():3380] logging synced files
+2023-03-28 18:06:05,041 INFO    Thread-254:9900 [wandb_setup.py:_flush():76] Configure stats pid to 9900
+2023-03-28 18:06:05,041 INFO    Thread-254:9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\.config\wandb\settings
+2023-03-28 18:06:05,041 INFO    Thread-254:9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\settings
+2023-03-28 18:06:05,041 INFO    Thread-254:9900 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'TEDA_Regressor', 'entity': 'embarca-ai', 'root_dir': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor', 'run_id': 'v1qihi63', 'sweep_param_path': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor\\wandb\\sweep-mq0bccda\\config-v1qihi63.yaml', 'sweep_id': 'mq0bccda'}
+2023-03-28 18:06:05,041 INFO    Thread-254:9900 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-03-28 18:06:05,041 INFO    Thread-254:9900 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-03-28 18:06:05,041 INFO    Thread-254:9900 [wandb_init.py:_log_setup():506] Logging user logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_180605-v1qihi63\logs\debug.log
+2023-03-28 18:06:05,041 INFO    Thread-254:9900 [wandb_init.py:_log_setup():507] Logging internal logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_180605-v1qihi63\logs\debug-internal.log
+2023-03-28 18:06:05,041 INFO    Thread-254:9900 [wandb_init.py:init():546] calling init triggers
+2023-03-28 18:06:05,041 INFO    Thread-254:9900 [wandb_init.py:init():552] wandb.init called with sweep_config: {'ActList': 'linear', 'OptList': 'rmsprop', 'Window': 4}
+config: {}
+2023-03-28 18:06:05,041 INFO    Thread-254:9900 [wandb_init.py:init():602] starting backend
+2023-03-28 18:06:05,041 INFO    Thread-254:9900 [wandb_init.py:init():606] setting up manager
+2023-03-28 18:06:05,041 INFO    Thread-254:9900 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-03-28 18:06:05,057 INFO    Thread-254:9900 [wandb_init.py:init():613] backend started and connected
+2023-03-28 18:06:05,072 INFO    Thread-254:9900 [wandb_run.py:_config_callback():1251] config_cb None None {'ActList': 'linear', 'OptList': 'rmsprop', 'Window': 4}
+2023-03-28 18:06:05,072 INFO    Thread-254:9900 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2023-03-28 18:06:05,072 INFO    Thread-254:9900 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-03-28 18:06:05,088 INFO    Thread-254:9900 [wandb_init.py:init():701] updated telemetry
+2023-03-28 18:06:05,135 INFO    Thread-254:9900 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-03-28 18:06:05,791 INFO    Thread-254:9900 [wandb_run.py:_on_init():2133] communicating current version
+2023-03-28 18:06:05,900 INFO    Thread-254:9900 [wandb_run.py:_on_init():2142] got version response 
+2023-03-28 18:06:05,900 INFO    Thread-254:9900 [wandb_init.py:init():789] starting run threads in backend
+2023-03-28 18:06:23,303 INFO    Thread-254:9900 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-28 18:06:23,303 INFO    Thread-254:9900 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-28 18:06:23,304 INFO    Thread-254:9900 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-28 18:06:23,304 INFO    Thread-254:9900 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-28 18:06:23,304 INFO    Thread-254:9900 [wandb_init.py:init():831] run started, returning control to user process
+2023-03-28 18:07:21,058 INFO    Thread-254:9900 [wandb_run.py:_finish():1854] finishing run embarca-ai/TEDA_Regressor/v1qihi63
+2023-03-28 18:07:21,059 INFO    Thread-254:9900 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-03-28 18:07:21,059 INFO    Thread-254:9900 [wandb_run.py:_restore():2066] restore
+2023-03-28 18:07:21,059 INFO    Thread-254:9900 [wandb_run.py:_restore():2072] restore done
+2023-03-28 18:07:26,751 INFO    Thread-254:9900 [wandb_run.py:_footer_history_summary_info():3422] rendering history
+2023-03-28 18:07:26,751 INFO    Thread-254:9900 [wandb_run.py:_footer_history_summary_info():3454] rendering summary
+2023-03-28 18:07:26,765 INFO    Thread-254:9900 [wandb_run.py:_footer_sync_info():3380] logging synced files
+2023-03-28 18:07:39,935 INFO    Thread-263:9900 [wandb_setup.py:_flush():76] Configure stats pid to 9900
+2023-03-28 18:07:39,935 INFO    Thread-263:9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\.config\wandb\settings
+2023-03-28 18:07:39,935 INFO    Thread-263:9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\settings
+2023-03-28 18:07:39,935 INFO    Thread-263:9900 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'TEDA_Regressor', 'entity': 'embarca-ai', 'root_dir': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor', 'run_id': '0h2rp40b', 'sweep_param_path': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor\\wandb\\sweep-mq0bccda\\config-0h2rp40b.yaml', 'sweep_id': 'mq0bccda'}
+2023-03-28 18:07:39,935 INFO    Thread-263:9900 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-03-28 18:07:39,935 INFO    Thread-263:9900 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-03-28 18:07:39,935 INFO    Thread-263:9900 [wandb_init.py:_log_setup():506] Logging user logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_180739-0h2rp40b\logs\debug.log
+2023-03-28 18:07:39,935 INFO    Thread-263:9900 [wandb_init.py:_log_setup():507] Logging internal logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_180739-0h2rp40b\logs\debug-internal.log
+2023-03-28 18:07:39,935 INFO    Thread-263:9900 [wandb_init.py:init():546] calling init triggers
+2023-03-28 18:07:39,935 INFO    Thread-263:9900 [wandb_init.py:init():552] wandb.init called with sweep_config: {'ActList': 'linear', 'OptList': 'rmsprop', 'Window': 5}
+config: {}
+2023-03-28 18:07:39,935 INFO    Thread-263:9900 [wandb_init.py:init():602] starting backend
+2023-03-28 18:07:39,935 INFO    Thread-263:9900 [wandb_init.py:init():606] setting up manager
+2023-03-28 18:07:39,935 INFO    Thread-263:9900 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-03-28 18:07:39,951 INFO    Thread-263:9900 [wandb_init.py:init():613] backend started and connected
+2023-03-28 18:07:39,967 INFO    Thread-263:9900 [wandb_run.py:_config_callback():1251] config_cb None None {'ActList': 'linear', 'OptList': 'rmsprop', 'Window': 5}
+2023-03-28 18:07:39,967 INFO    Thread-263:9900 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2023-03-28 18:07:39,967 INFO    Thread-263:9900 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-03-28 18:07:39,967 INFO    Thread-263:9900 [wandb_init.py:init():701] updated telemetry
+2023-03-28 18:07:40,029 INFO    Thread-263:9900 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-03-28 18:07:40,670 INFO    Thread-263:9900 [wandb_run.py:_on_init():2133] communicating current version
+2023-03-28 18:07:40,764 INFO    Thread-263:9900 [wandb_run.py:_on_init():2142] got version response 
+2023-03-28 18:07:40,764 INFO    Thread-263:9900 [wandb_init.py:init():789] starting run threads in backend
+2023-03-28 18:07:59,320 INFO    Thread-263:9900 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-28 18:07:59,321 INFO    Thread-263:9900 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-28 18:07:59,321 INFO    Thread-263:9900 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-28 18:07:59,322 INFO    Thread-263:9900 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-28 18:07:59,323 INFO    Thread-263:9900 [wandb_init.py:init():831] run started, returning control to user process
+2023-03-28 18:08:57,326 INFO    Thread-263:9900 [wandb_run.py:_finish():1854] finishing run embarca-ai/TEDA_Regressor/0h2rp40b
+2023-03-28 18:08:57,326 INFO    Thread-263:9900 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-03-28 18:08:57,326 INFO    Thread-263:9900 [wandb_run.py:_restore():2066] restore
+2023-03-28 18:08:57,326 INFO    Thread-263:9900 [wandb_run.py:_restore():2072] restore done
+2023-03-28 18:09:02,745 INFO    Thread-263:9900 [wandb_run.py:_footer_history_summary_info():3422] rendering history
+2023-03-28 18:09:02,745 INFO    Thread-263:9900 [wandb_run.py:_footer_history_summary_info():3454] rendering summary
+2023-03-28 18:09:02,755 INFO    Thread-263:9900 [wandb_run.py:_footer_sync_info():3380] logging synced files
+2023-03-28 18:09:17,820 INFO    Thread-272:9900 [wandb_setup.py:_flush():76] Configure stats pid to 9900
+2023-03-28 18:09:17,820 INFO    Thread-272:9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\.config\wandb\settings
+2023-03-28 18:09:17,820 INFO    Thread-272:9900 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\settings
+2023-03-28 18:09:17,820 INFO    Thread-272:9900 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'TEDA_Regressor', 'entity': 'embarca-ai', 'root_dir': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor', 'run_id': 'obygnxok', 'sweep_param_path': 'C:\\Users\\Samsung\\Desktop\\Pedro\\UFRN\\Portfolio\\TEDA Regressor\\wandb\\sweep-mq0bccda\\config-obygnxok.yaml', 'sweep_id': 'mq0bccda'}
+2023-03-28 18:09:17,820 INFO    Thread-272:9900 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-03-28 18:09:17,820 INFO    Thread-272:9900 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-03-28 18:09:17,820 INFO    Thread-272:9900 [wandb_init.py:_log_setup():506] Logging user logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_180917-obygnxok\logs\debug.log
+2023-03-28 18:09:17,820 INFO    Thread-272:9900 [wandb_init.py:_log_setup():507] Logging internal logs to C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230328_180917-obygnxok\logs\debug-internal.log
+2023-03-28 18:09:17,835 INFO    Thread-272:9900 [wandb_init.py:init():546] calling init triggers
+2023-03-28 18:09:17,835 INFO    Thread-272:9900 [wandb_init.py:init():552] wandb.init called with sweep_config: {'ActList': 'linear', 'OptList': 'rmsprop', 'Window': 6}
+config: {}
+2023-03-28 18:09:17,835 INFO    Thread-272:9900 [wandb_init.py:init():602] starting backend
+2023-03-28 18:09:17,835 INFO    Thread-272:9900 [wandb_init.py:init():606] setting up manager
+2023-03-28 18:09:17,835 INFO    Thread-272:9900 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-03-28 18:09:17,835 INFO    Thread-272:9900 [wandb_init.py:init():613] backend started and connected
+2023-03-28 18:09:17,866 INFO    Thread-272:9900 [wandb_run.py:_config_callback():1251] config_cb None None {'ActList': 'linear', 'OptList': 'rmsprop', 'Window': 6}
+2023-03-28 18:09:17,866 INFO    Thread-272:9900 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2023-03-28 18:09:17,866 INFO    Thread-272:9900 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-03-28 18:09:17,866 INFO    Thread-272:9900 [wandb_init.py:init():701] updated telemetry
+2023-03-28 18:09:17,929 INFO    Thread-272:9900 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-03-28 18:09:18,601 INFO    Thread-272:9900 [wandb_run.py:_on_init():2133] communicating current version
+2023-03-28 18:09:18,695 INFO    Thread-272:9900 [wandb_run.py:_on_init():2142] got version response 
+2023-03-28 18:09:18,695 INFO    Thread-272:9900 [wandb_init.py:init():789] starting run threads in backend
+2023-03-28 18:09:36,846 INFO    Thread-272:9900 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-28 18:09:36,847 INFO    Thread-272:9900 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-28 18:09:36,847 INFO    Thread-272:9900 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-28 18:09:36,847 INFO    Thread-272:9900 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-28 18:09:36,847 INFO    Thread-272:9900 [wandb_init.py:init():831] run started, returning control to user process
+2023-03-28 18:10:40,115 INFO    Thread-272:9900 [wandb_run.py:_finish():1854] finishing run embarca-ai/TEDA_Regressor/obygnxok
+2023-03-28 18:10:40,115 INFO    Thread-272:9900 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-03-28 18:10:40,116 INFO    Thread-272:9900 [wandb_run.py:_restore():2066] restore
+2023-03-28 18:10:40,116 INFO    Thread-272:9900 [wandb_run.py:_restore():2072] restore done
+2023-03-28 18:10:45,455 INFO    Thread-272:9900 [wandb_run.py:_footer_history_summary_info():3422] rendering history
+2023-03-28 18:10:45,455 INFO    Thread-272:9900 [wandb_run.py:_footer_history_summary_info():3454] rendering summary
+2023-03-28 18:10:45,475 INFO    Thread-272:9900 [wandb_run.py:_footer_sync_info():3380] logging synced files
+2023-03-28 18:10:55,599 INFO    MainThread:9900 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-03-28 18:10:55,599 INFO    MainThread:9900 [wandb_init.py:_pause_backend():417] pausing backend

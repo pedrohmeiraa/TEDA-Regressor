@@ -1,0 +1,6 @@
+wandb_version: 1
+
+Factor:
+  value: 1
+Window:
+  value: 3
