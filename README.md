@@ -217,7 +217,7 @@ def  train():
 			tedaRegressor.run(np.array(t))
 			# get co2 emissions from tracker
 			# "CO2 emission (in Kg)"
-			emissions = tracker.stop() #CONFERIR SE É AQUI MESMO
+			emissions = tracker.stop()
 
 			# MSE TEDARegressor
 			mse_TEDA = mean_squared_error(y_test[1:-1], TEDARegressor.Ypred)
@@ -263,7 +263,7 @@ def  train():
 
 		# get co2 emissions from tracker
 		# "CO2 emission (in Kg)"
-		emissions = tracker.stop() #CONFERIR SE É AQUI MESMO
+		emissions = tracker.stop()
 
 		#RLS
 		mse_RLS = mean_squared_error(y_test[1:-1], Y_RLS[2:])
