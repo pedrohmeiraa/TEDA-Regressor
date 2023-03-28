@@ -1,7 +1,7 @@
 # TEDA Regressor: *An Online Processing of Vehicular Data on the Edge Through an Unsupervised TinyML Regression Technique*
 
 
-### ✍🏾Authors:  Pedro Andrade, [Ivanovitch Silva](https://github.com/ivanovitchm), Marianne Diniz, Thommas Flores, Daniel G. Costa, and Eduardo Soares.
+### ✍🏾Authors:  [Pedro Andrade](https://github.com/pedrohmeiraa), [Ivanovitch Silva](https://github.com/ivanovitchm), [Marianne Diniz](https://github.com/MarianneDiniz), [Thommas Flores](https://github.com/thommaskevin), [Daniel G. Costa](https://github.com/daniel-gcosta), and [Eduardo Soares](https://researcher.watson.ibm.com/researcher/view.php?person=ibm-Eduardo.Soares).
 
 
 # 1. Abstract/Overview
@@ -387,5 +387,4 @@ We've used to see the combinations of hyperparameters that led to the **best mod
 [[2]](https://www.mdpi.com/1424-8220/21/12/4153) :books: Signoretti, G. ; Silva, M. ; **Andrade, P.**; Silva, I. ; Sisinni, E. ; Ferrari, P.; *An Evolving TinyML Compression Algorithm for IoT Environments Based on Data Eccentricity*. SENSORS 2021, v. 21, p. 4153. ![GitHub](https://img.shields.io/badge/DOI-10.3390%2Fs21124153-green)
 
 [[3]](https://dl.acm.org/journal/tecs) :books: **Andrade, P.**; Silva, I.; Silva, M.; Flores, T.; Costa, D.G. Soares, E.; _Online Processing of Vehicular Data on the Edge Through an Unsupervised TinyML Regression Technique_. ACM TECS 2023. ![GitHub](https://img.shields.io/badge/DOI-under%20review-blue)
-
 

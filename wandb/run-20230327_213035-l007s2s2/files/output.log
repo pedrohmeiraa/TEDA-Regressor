@@ -1,0 +1,3 @@
+Create sweep with ID: iwcpzn5i
+Sweep URL: https://wandb.ai/embarca-ai/TEDA_Regressor/sweeps/iwcpzn5i
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.

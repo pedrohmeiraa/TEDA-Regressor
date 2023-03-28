@@ -1,0 +1,194 @@
+2023-03-27 22:25:45,453 INFO    StreamThr :13836 [internal.py:wandb_internal():87] W&B internal server running at pid: 13836, started at: 2023-03-27 22:25:45.452160
+2023-03-27 22:25:45,455 DEBUG   HandlerThread:13836 [handler.py:handle_request():144] handle_request: status
+2023-03-27 22:25:45,483 INFO    WriterThread:13836 [datastore.py:open_for_write():85] open: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230327_222545-twqgi25u\run-twqgi25u.wandb
+2023-03-27 22:25:45,485 DEBUG   SenderThread:13836 [sender.py:send():336] send: header
+2023-03-27 22:25:45,553 DEBUG   SenderThread:13836 [sender.py:send():336] send: run
+2023-03-27 22:25:46,201 DEBUG   HandlerThread:13836 [handler.py:handle_request():144] handle_request: check_version
+2023-03-27 22:25:46,204 INFO    SenderThread:13836 [dir_watcher.py:__init__():219] watching files in: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230327_222545-twqgi25u\files
+2023-03-27 22:25:46,204 INFO    SenderThread:13836 [sender.py:_start_run_threads():1078] run started: twqgi25u with start time 1679966745.458452
+2023-03-27 22:25:46,204 DEBUG   SenderThread:13836 [sender.py:send_request():363] send_request: summary_record
+2023-03-27 22:25:46,204 INFO    SenderThread:13836 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-27 22:25:46,205 DEBUG   SenderThread:13836 [sender.py:send_request():363] send_request: check_version
+2023-03-27 22:25:46,312 DEBUG   HandlerThread:13836 [handler.py:handle_request():144] handle_request: run_start
+2023-03-27 22:25:46,325 DEBUG   HandlerThread:13836 [system_info.py:__init__():31] System info init
+2023-03-27 22:25:46,325 DEBUG   HandlerThread:13836 [system_info.py:__init__():46] System info init done
+2023-03-27 22:25:46,325 INFO    HandlerThread:13836 [system_monitor.py:start():183] Starting system monitor
+2023-03-27 22:25:46,325 INFO    SystemMonitor:13836 [system_monitor.py:_start():147] Starting system asset monitoring threads
+2023-03-27 22:25:46,327 INFO    HandlerThread:13836 [system_monitor.py:probe():204] Collecting system info
+2023-03-27 22:25:46,327 DEBUG   HandlerThread:13836 [system_info.py:probe():195] Probing system
+2023-03-27 22:25:46,329 INFO    SystemMonitor:13836 [interfaces.py:start():187] Started cpu monitoring
+2023-03-27 22:25:46,329 INFO    SystemMonitor:13836 [interfaces.py:start():187] Started disk monitoring
+2023-03-27 22:25:46,330 INFO    SystemMonitor:13836 [interfaces.py:start():187] Started memory monitoring
+2023-03-27 22:25:46,343 INFO    SystemMonitor:13836 [interfaces.py:start():187] Started network monitoring
+2023-03-27 22:25:46,349 DEBUG   HandlerThread:13836 [system_info.py:_probe_git():180] Probing git
+2023-03-27 22:25:46,485 DEBUG   HandlerThread:13836 [system_info.py:_probe_git():188] Probing git done
+2023-03-27 22:25:46,485 DEBUG   HandlerThread:13836 [system_info.py:probe():240] Probing system done
+2023-03-27 22:25:46,485 DEBUG   HandlerThread:13836 [system_monitor.py:probe():213] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.8.5', 'heartbeatAt': '2023-03-28T01:25:46.327002', 'startedAt': '2023-03-28T01:25:45.424975', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': 'Desktop/Pedro/UFRN/Portfolio/TEDA Regressor/1. TEDARegressor.ipynb', 'root': 'C:/Users/Samsung/Desktop/Pedro/UFRN/Portfolio/TEDA Regressor', 'git': {'remote': 'https://github.com/pedrohmeiraa/TEDA-Regressor.git', 'commit': '0e39ad6a8d7f4207961244ada9c80e564b39b626'}, 'email': 'pedro.andrade@cear.ufpb.br', 'host': 'DESKTOP-5NQASSV', 'username': 'Samsung', 'executable': 'C:\\Users\\Samsung\\anaconda3\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 1600.0, 'min': 0.0, 'max': 1800.0}, 'cpu_freq_per_core': [{'current': 1600.0, 'min': 0.0, 'max': 1800.0}], 'disk': {'total': 222.70860290527344, 'used': 164.91529846191406}, 'memory': {'total': 3.8945770263671875}}
+2023-03-27 22:25:46,485 INFO    HandlerThread:13836 [system_monitor.py:probe():214] Finished collecting system info
+2023-03-27 22:25:46,485 INFO    HandlerThread:13836 [system_monitor.py:probe():217] Publishing system info
+2023-03-27 22:25:46,485 DEBUG   HandlerThread:13836 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-03-27 22:25:46,487 DEBUG   HandlerThread:13836 [system_info.py:_save_pip():67] Saving pip packages done
+2023-03-27 22:25:46,487 DEBUG   HandlerThread:13836 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-03-27 22:25:47,220 INFO    Thread-17 :13836 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230327_222545-twqgi25u\files\wandb-summary.json
+2023-03-27 22:25:47,220 INFO    Thread-17 :13836 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230327_222545-twqgi25u\files\conda-environment.yaml
+2023-03-27 22:25:47,220 INFO    Thread-17 :13836 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230327_222545-twqgi25u\files\requirements.txt
+2023-03-27 22:26:10,317 DEBUG   HandlerThread:13836 [system_info.py:_save_conda():86] Saving conda packages done
+2023-03-27 22:26:10,319 INFO    HandlerThread:13836 [system_monitor.py:probe():219] Finished publishing system info
+2023-03-27 22:26:10,341 DEBUG   HandlerThread:13836 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 22:26:10,341 DEBUG   HandlerThread:13836 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 22:26:10,341 DEBUG   HandlerThread:13836 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 22:26:10,341 DEBUG   HandlerThread:13836 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 22:26:10,341 DEBUG   HandlerThread:13836 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 22:26:10,341 DEBUG   HandlerThread:13836 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 22:26:10,341 DEBUG   HandlerThread:13836 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 22:26:10,341 DEBUG   HandlerThread:13836 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 22:26:10,341 DEBUG   SenderThread:13836 [sender.py:send():336] send: files
+2023-03-27 22:26:10,341 INFO    SenderThread:13836 [sender.py:_save_file():1332] saving file wandb-metadata.json with policy now
+2023-03-27 22:26:10,363 DEBUG   HandlerThread:13836 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-27 22:26:10,364 DEBUG   SenderThread:13836 [sender.py:send_request():363] send_request: stop_status
+2023-03-27 22:26:10,414 INFO    Thread-17 :13836 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230327_222545-twqgi25u\files\conda-environment.yaml
+2023-03-27 22:26:10,414 INFO    Thread-17 :13836 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230327_222545-twqgi25u\files\wandb-metadata.json
+2023-03-27 22:26:10,678 DEBUG   SenderThread:13836 [sender.py:send():336] send: telemetry
+2023-03-27 22:26:11,230 INFO    wandb-upload_0:13836 [upload_job.py:push():138] Uploaded file C:\Users\Samsung\AppData\Local\Temp\tmp8pdmewuwwandb\283pz6oe-wandb-metadata.json
+2023-03-27 22:26:11,692 DEBUG   HandlerThread:13836 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 22:26:16,261 DEBUG   SenderThread:13836 [sender.py:send_request():363] send_request: summary_record
+2023-03-27 22:26:16,262 DEBUG   HandlerThread:13836 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-27 22:26:16,272 INFO    SenderThread:13836 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-27 22:26:16,272 DEBUG   SenderThread:13836 [sender.py:send():336] send: history
+2023-03-27 22:26:16,273 DEBUG   SenderThread:13836 [sender.py:send_request():363] send_request: summary_record
+2023-03-27 22:26:16,273 INFO    SenderThread:13836 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-27 22:26:16,273 DEBUG   SenderThread:13836 [sender.py:send_request():363] send_request: summary_record
+2023-03-27 22:26:16,274 INFO    SenderThread:13836 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-27 22:26:16,274 DEBUG   SenderThread:13836 [sender.py:send_request():363] send_request: summary_record
+2023-03-27 22:26:16,274 INFO    SenderThread:13836 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-27 22:26:16,275 DEBUG   SenderThread:13836 [sender.py:send_request():363] send_request: summary_record
+2023-03-27 22:26:16,275 INFO    SenderThread:13836 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-27 22:26:16,275 DEBUG   SenderThread:13836 [sender.py:send_request():363] send_request: summary_record
+2023-03-27 22:26:16,276 INFO    SenderThread:13836 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-27 22:26:16,276 DEBUG   SenderThread:13836 [sender.py:send_request():363] send_request: summary_record
+2023-03-27 22:26:16,277 INFO    SenderThread:13836 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-27 22:26:16,277 DEBUG   SenderThread:13836 [sender.py:send():336] send: telemetry
+2023-03-27 22:26:16,277 DEBUG   SenderThread:13836 [sender.py:send():336] send: exit
+2023-03-27 22:26:16,277 INFO    SenderThread:13836 [sender.py:send_exit():559] handling exit code: 0
+2023-03-27 22:26:16,277 INFO    SenderThread:13836 [sender.py:send_exit():561] handling runtime: 29
+2023-03-27 22:26:16,278 INFO    SenderThread:13836 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-27 22:26:16,278 INFO    SenderThread:13836 [sender.py:send_exit():567] send defer
+2023-03-27 22:26:16,278 DEBUG   HandlerThread:13836 [handler.py:handle_request():144] handle_request: defer
+2023-03-27 22:26:16,278 INFO    HandlerThread:13836 [handler.py:handle_request_defer():170] handle defer: 0
+2023-03-27 22:26:16,278 DEBUG   SenderThread:13836 [sender.py:send_request():363] send_request: defer
+2023-03-27 22:26:16,278 INFO    SenderThread:13836 [sender.py:send_request_defer():583] handle sender defer: 0
+2023-03-27 22:26:16,279 INFO    SenderThread:13836 [sender.py:transition_state():587] send defer: 1
+2023-03-27 22:26:16,279 DEBUG   HandlerThread:13836 [handler.py:handle_request():144] handle_request: defer
+2023-03-27 22:26:16,279 INFO    HandlerThread:13836 [handler.py:handle_request_defer():170] handle defer: 1
+2023-03-27 22:26:16,279 DEBUG   SenderThread:13836 [sender.py:send_request():363] send_request: defer
+2023-03-27 22:26:16,279 INFO    SenderThread:13836 [sender.py:send_request_defer():583] handle sender defer: 1
+2023-03-27 22:26:16,280 INFO    SenderThread:13836 [sender.py:transition_state():587] send defer: 2
+2023-03-27 22:26:16,280 DEBUG   HandlerThread:13836 [handler.py:handle_request():144] handle_request: defer
+2023-03-27 22:26:16,280 INFO    HandlerThread:13836 [handler.py:handle_request_defer():170] handle defer: 2
+2023-03-27 22:26:16,280 INFO    HandlerThread:13836 [system_monitor.py:finish():193] Stopping system monitor
+2023-03-27 22:26:16,280 DEBUG   SystemMonitor:13836 [system_monitor.py:_start():161] Starting system metrics aggregation loop
+2023-03-27 22:26:16,282 DEBUG   SystemMonitor:13836 [system_monitor.py:_start():168] Finished system metrics aggregation loop
+2023-03-27 22:26:16,282 DEBUG   SystemMonitor:13836 [system_monitor.py:_start():172] Publishing last batch of metrics
+2023-03-27 22:26:16,283 INFO    HandlerThread:13836 [interfaces.py:finish():199] Joined cpu monitor
+2023-03-27 22:26:16,283 INFO    HandlerThread:13836 [interfaces.py:finish():199] Joined disk monitor
+2023-03-27 22:26:16,284 INFO    HandlerThread:13836 [interfaces.py:finish():199] Joined memory monitor
+2023-03-27 22:26:16,284 INFO    HandlerThread:13836 [interfaces.py:finish():199] Joined network monitor
+2023-03-27 22:26:16,285 DEBUG   SenderThread:13836 [sender.py:send_request():363] send_request: defer
+2023-03-27 22:26:16,285 INFO    SenderThread:13836 [sender.py:send_request_defer():583] handle sender defer: 2
+2023-03-27 22:26:16,285 INFO    SenderThread:13836 [sender.py:transition_state():587] send defer: 3
+2023-03-27 22:26:16,286 DEBUG   SenderThread:13836 [sender.py:send():336] send: stats
+2023-03-27 22:26:16,286 DEBUG   HandlerThread:13836 [handler.py:handle_request():144] handle_request: defer
+2023-03-27 22:26:16,286 INFO    HandlerThread:13836 [handler.py:handle_request_defer():170] handle defer: 3
+2023-03-27 22:26:16,286 DEBUG   SenderThread:13836 [sender.py:send_request():363] send_request: defer
+2023-03-27 22:26:16,286 INFO    SenderThread:13836 [sender.py:send_request_defer():583] handle sender defer: 3
+2023-03-27 22:26:16,286 INFO    SenderThread:13836 [sender.py:transition_state():587] send defer: 4
+2023-03-27 22:26:16,287 DEBUG   HandlerThread:13836 [handler.py:handle_request():144] handle_request: defer
+2023-03-27 22:26:16,287 INFO    HandlerThread:13836 [handler.py:handle_request_defer():170] handle defer: 4
+2023-03-27 22:26:16,287 DEBUG   SenderThread:13836 [sender.py:send_request():363] send_request: defer
+2023-03-27 22:26:16,287 INFO    SenderThread:13836 [sender.py:send_request_defer():583] handle sender defer: 4
+2023-03-27 22:26:16,287 INFO    SenderThread:13836 [sender.py:transition_state():587] send defer: 5
+2023-03-27 22:26:16,287 DEBUG   HandlerThread:13836 [handler.py:handle_request():144] handle_request: defer
+2023-03-27 22:26:16,287 INFO    HandlerThread:13836 [handler.py:handle_request_defer():170] handle defer: 5
+2023-03-27 22:26:16,288 DEBUG   SenderThread:13836 [sender.py:send():336] send: summary
+2023-03-27 22:26:16,288 INFO    SenderThread:13836 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-27 22:26:16,288 DEBUG   SenderThread:13836 [sender.py:send_request():363] send_request: defer
+2023-03-27 22:26:16,288 INFO    SenderThread:13836 [sender.py:send_request_defer():583] handle sender defer: 5
+2023-03-27 22:26:16,288 INFO    SenderThread:13836 [sender.py:transition_state():587] send defer: 6
+2023-03-27 22:26:16,289 DEBUG   HandlerThread:13836 [handler.py:handle_request():144] handle_request: defer
+2023-03-27 22:26:16,289 INFO    HandlerThread:13836 [handler.py:handle_request_defer():170] handle defer: 6
+2023-03-27 22:26:16,290 DEBUG   SenderThread:13836 [sender.py:send_request():363] send_request: defer
+2023-03-27 22:26:16,290 INFO    SenderThread:13836 [sender.py:send_request_defer():583] handle sender defer: 6
+2023-03-27 22:26:16,294 DEBUG   HandlerThread:13836 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 22:26:16,475 INFO    Thread-17 :13836 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230327_222545-twqgi25u\files\wandb-summary.json
+2023-03-27 22:26:16,622 INFO    SenderThread:13836 [sender.py:transition_state():587] send defer: 7
+2023-03-27 22:26:16,622 DEBUG   HandlerThread:13836 [handler.py:handle_request():144] handle_request: defer
+2023-03-27 22:26:16,622 INFO    HandlerThread:13836 [handler.py:handle_request_defer():170] handle defer: 7
+2023-03-27 22:26:16,623 DEBUG   SenderThread:13836 [sender.py:send_request():363] send_request: defer
+2023-03-27 22:26:16,623 INFO    SenderThread:13836 [sender.py:send_request_defer():583] handle sender defer: 7
+2023-03-27 22:26:16,623 INFO    SenderThread:13836 [sender.py:transition_state():587] send defer: 8
+2023-03-27 22:26:16,623 DEBUG   HandlerThread:13836 [handler.py:handle_request():144] handle_request: defer
+2023-03-27 22:26:16,623 INFO    HandlerThread:13836 [handler.py:handle_request_defer():170] handle defer: 8
+2023-03-27 22:26:16,623 DEBUG   SenderThread:13836 [sender.py:send_request():363] send_request: defer
+2023-03-27 22:26:16,623 INFO    SenderThread:13836 [sender.py:send_request_defer():583] handle sender defer: 8
+2023-03-27 22:26:16,623 INFO    SenderThread:13836 [sender.py:transition_state():587] send defer: 9
+2023-03-27 22:26:16,624 DEBUG   HandlerThread:13836 [handler.py:handle_request():144] handle_request: defer
+2023-03-27 22:26:16,624 INFO    HandlerThread:13836 [handler.py:handle_request_defer():170] handle defer: 9
+2023-03-27 22:26:16,624 DEBUG   SenderThread:13836 [sender.py:send_request():363] send_request: defer
+2023-03-27 22:26:16,624 INFO    SenderThread:13836 [sender.py:send_request_defer():583] handle sender defer: 9
+2023-03-27 22:26:16,624 INFO    SenderThread:13836 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-03-27 22:26:17,271 DEBUG   HandlerThread:13836 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-27 22:26:17,489 INFO    SenderThread:13836 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230327_222545-twqgi25u\files\config.yaml
+2023-03-27 22:26:17,490 INFO    SenderThread:13836 [dir_watcher.py:finish():395] scan: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230327_222545-twqgi25u\files
+2023-03-27 22:26:17,490 INFO    SenderThread:13836 [dir_watcher.py:finish():409] scan save: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230327_222545-twqgi25u\files\conda-environment.yaml conda-environment.yaml
+2023-03-27 22:26:17,490 INFO    SenderThread:13836 [dir_watcher.py:finish():409] scan save: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230327_222545-twqgi25u\files\config.yaml config.yaml
+2023-03-27 22:26:17,493 INFO    SenderThread:13836 [dir_watcher.py:finish():409] scan save: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230327_222545-twqgi25u\files\requirements.txt requirements.txt
+2023-03-27 22:26:17,498 INFO    SenderThread:13836 [dir_watcher.py:finish():409] scan save: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230327_222545-twqgi25u\files\wandb-metadata.json wandb-metadata.json
+2023-03-27 22:26:17,499 INFO    SenderThread:13836 [dir_watcher.py:finish():409] scan save: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230327_222545-twqgi25u\files\wandb-summary.json wandb-summary.json
+2023-03-27 22:26:17,500 INFO    SenderThread:13836 [sender.py:transition_state():587] send defer: 10
+2023-03-27 22:26:17,500 DEBUG   SenderThread:13836 [sender.py:send_request():363] send_request: poll_exit
+2023-03-27 22:26:17,500 DEBUG   HandlerThread:13836 [handler.py:handle_request():144] handle_request: defer
+2023-03-27 22:26:17,505 INFO    HandlerThread:13836 [handler.py:handle_request_defer():170] handle defer: 10
+2023-03-27 22:26:17,510 DEBUG   SenderThread:13836 [sender.py:send_request():363] send_request: defer
+2023-03-27 22:26:17,510 INFO    SenderThread:13836 [sender.py:send_request_defer():583] handle sender defer: 10
+2023-03-27 22:26:17,510 INFO    SenderThread:13836 [file_pusher.py:finish():164] shutting down file pusher
+2023-03-27 22:26:18,188 INFO    wandb-upload_0:13836 [upload_job.py:push():138] Uploaded file C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230327_222545-twqgi25u\files\conda-environment.yaml
+2023-03-27 22:26:18,287 DEBUG   HandlerThread:13836 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-27 22:26:18,288 DEBUG   SenderThread:13836 [sender.py:send_request():363] send_request: poll_exit
+2023-03-27 22:26:18,326 INFO    wandb-upload_1:13836 [upload_job.py:push():138] Uploaded file C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230327_222545-twqgi25u\files\config.yaml
+2023-03-27 22:26:18,326 INFO    wandb-upload_3:13836 [upload_job.py:push():138] Uploaded file C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230327_222545-twqgi25u\files\wandb-summary.json
+2023-03-27 22:26:18,354 INFO    wandb-upload_2:13836 [upload_job.py:push():138] Uploaded file C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230327_222545-twqgi25u\files\requirements.txt
+2023-03-27 22:26:18,569 INFO    Thread-16 :13836 [sender.py:transition_state():587] send defer: 11
+2023-03-27 22:26:18,569 DEBUG   HandlerThread:13836 [handler.py:handle_request():144] handle_request: defer
+2023-03-27 22:26:18,570 INFO    HandlerThread:13836 [handler.py:handle_request_defer():170] handle defer: 11
+2023-03-27 22:26:18,570 DEBUG   SenderThread:13836 [sender.py:send_request():363] send_request: defer
+2023-03-27 22:26:18,570 INFO    SenderThread:13836 [sender.py:send_request_defer():583] handle sender defer: 11
+2023-03-27 22:26:18,570 INFO    SenderThread:13836 [file_pusher.py:join():169] waiting for file pusher
+2023-03-27 22:26:18,570 INFO    SenderThread:13836 [sender.py:transition_state():587] send defer: 12
+2023-03-27 22:26:18,570 DEBUG   HandlerThread:13836 [handler.py:handle_request():144] handle_request: defer
+2023-03-27 22:26:18,570 INFO    HandlerThread:13836 [handler.py:handle_request_defer():170] handle defer: 12
+2023-03-27 22:26:18,571 DEBUG   SenderThread:13836 [sender.py:send_request():363] send_request: defer
+2023-03-27 22:26:18,571 INFO    SenderThread:13836 [sender.py:send_request_defer():583] handle sender defer: 12
+2023-03-27 22:26:19,002 INFO    SenderThread:13836 [sender.py:transition_state():587] send defer: 13
+2023-03-27 22:26:19,002 DEBUG   HandlerThread:13836 [handler.py:handle_request():144] handle_request: defer
+2023-03-27 22:26:19,002 INFO    HandlerThread:13836 [handler.py:handle_request_defer():170] handle defer: 13
+2023-03-27 22:26:19,003 DEBUG   SenderThread:13836 [sender.py:send_request():363] send_request: defer
+2023-03-27 22:26:19,003 INFO    SenderThread:13836 [sender.py:send_request_defer():583] handle sender defer: 13
+2023-03-27 22:26:19,003 INFO    SenderThread:13836 [sender.py:transition_state():587] send defer: 14
+2023-03-27 22:26:19,003 DEBUG   HandlerThread:13836 [handler.py:handle_request():144] handle_request: defer
+2023-03-27 22:26:19,004 INFO    HandlerThread:13836 [handler.py:handle_request_defer():170] handle defer: 14
+2023-03-27 22:26:19,004 DEBUG   SenderThread:13836 [sender.py:send():336] send: final
+2023-03-27 22:26:19,004 DEBUG   SenderThread:13836 [sender.py:send():336] send: footer
+2023-03-27 22:26:19,004 DEBUG   SenderThread:13836 [sender.py:send_request():363] send_request: defer
+2023-03-27 22:26:19,004 INFO    SenderThread:13836 [sender.py:send_request_defer():583] handle sender defer: 14
+2023-03-27 22:26:19,005 DEBUG   HandlerThread:13836 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-27 22:26:19,005 DEBUG   HandlerThread:13836 [handler.py:handle_request():144] handle_request: server_info
+2023-03-27 22:26:19,006 DEBUG   SenderThread:13836 [sender.py:send_request():363] send_request: poll_exit
+2023-03-27 22:26:19,006 DEBUG   SenderThread:13836 [sender.py:send_request():363] send_request: server_info
+2023-03-27 22:26:19,009 DEBUG   HandlerThread:13836 [handler.py:handle_request():144] handle_request: get_summary
+2023-03-27 22:26:19,009 DEBUG   HandlerThread:13836 [handler.py:handle_request():144] handle_request: sampled_history
+2023-03-27 22:26:19,625 DEBUG   HandlerThread:13836 [handler.py:handle_request():144] handle_request: shutdown
+2023-03-27 22:26:19,625 INFO    HandlerThread:13836 [handler.py:finish():842] shutting down handler
+2023-03-27 22:26:20,007 INFO    WriterThread:13836 [datastore.py:close():298] close: C:\Users\Samsung\Desktop\Pedro\UFRN\Portfolio\TEDA Regressor\wandb\run-20230327_222545-twqgi25u\run-twqgi25u.wandb
+2023-03-27 22:26:20,635 INFO    SenderThread:13836 [sender.py:finish():1504] shutting down sender
+2023-03-27 22:26:20,635 INFO    SenderThread:13836 [file_pusher.py:finish():164] shutting down file pusher
+2023-03-27 22:26:20,635 INFO    SenderThread:13836 [file_pusher.py:join():169] waiting for file pusher
