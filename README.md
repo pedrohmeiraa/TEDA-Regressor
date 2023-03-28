@@ -307,7 +307,7 @@ def  train():
 
 		# get co2 emissions from tracker
 		# "CO2 emission (in Kg)"
-		emissions = tracker.stop() #CONFERIR SE É AQUI MESMO
+		emissions = tracker.stop()
 
 		# to predict
 		cnn_model.predict(X_test)
